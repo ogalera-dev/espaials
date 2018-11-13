@@ -1,348 +1,60 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.14)  13 NOV 2018 18:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.22)  13 NOV 2018 18:40
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**memoria.tex
-(./memoria.tex
-LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 8 language(s) loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+**./memoria.tex
+(memoria.tex
+LaTeX2e <2018-04-01> patch level 5
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2015/03/17 v1.2c Input encoding file
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
+"
+Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2015/12/03 v1.1r UTF-8 support for inputenc
-Now handling font encoding OML ...
-... no UTF-8 mapping file for font encoding OML
-Now handling font encoding T1 ...
-... processing UTF-8 mapping file for font encoding T1
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AB (decimal 171)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00BB (decimal 187)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C0 (decimal 192)
-   defining Unicode char U+00C1 (decimal 193)
-   defining Unicode char U+00C2 (decimal 194)
-   defining Unicode char U+00C3 (decimal 195)
-   defining Unicode char U+00C4 (decimal 196)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00C7 (decimal 199)
-   defining Unicode char U+00C8 (decimal 200)
-   defining Unicode char U+00C9 (decimal 201)
-   defining Unicode char U+00CA (decimal 202)
-   defining Unicode char U+00CB (decimal 203)
-   defining Unicode char U+00CC (decimal 204)
-   defining Unicode char U+00CD (decimal 205)
-   defining Unicode char U+00CE (decimal 206)
-   defining Unicode char U+00CF (decimal 207)
-   defining Unicode char U+00D0 (decimal 208)
-   defining Unicode char U+00D1 (decimal 209)
-   defining Unicode char U+00D2 (decimal 210)
-   defining Unicode char U+00D3 (decimal 211)
-   defining Unicode char U+00D4 (decimal 212)
-   defining Unicode char U+00D5 (decimal 213)
-   defining Unicode char U+00D6 (decimal 214)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00D9 (decimal 217)
-   defining Unicode char U+00DA (decimal 218)
-   defining Unicode char U+00DB (decimal 219)
-   defining Unicode char U+00DC (decimal 220)
-   defining Unicode char U+00DD (decimal 221)
-   defining Unicode char U+00DE (decimal 222)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E0 (decimal 224)
-   defining Unicode char U+00E1 (decimal 225)
-   defining Unicode char U+00E2 (decimal 226)
-   defining Unicode char U+00E3 (decimal 227)
-   defining Unicode char U+00E4 (decimal 228)
-   defining Unicode char U+00E5 (decimal 229)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00E7 (decimal 231)
-   defining Unicode char U+00E8 (decimal 232)
-   defining Unicode char U+00E9 (decimal 233)
-   defining Unicode char U+00EA (decimal 234)
-   defining Unicode char U+00EB (decimal 235)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F0 (decimal 240)
-   defining Unicode char U+00F1 (decimal 241)
-   defining Unicode char U+00F2 (decimal 242)
-   defining Unicode char U+00F3 (decimal 243)
-   defining Unicode char U+00F4 (decimal 244)
-   defining Unicode char U+00F5 (decimal 245)
-   defining Unicode char U+00F6 (decimal 246)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+00F9 (decimal 249)
-   defining Unicode char U+00FA (decimal 250)
-   defining Unicode char U+00FB (decimal 251)
-   defining Unicode char U+00FC (decimal 252)
-   defining Unicode char U+00FD (decimal 253)
-   defining Unicode char U+00FE (decimal 254)
-   defining Unicode char U+00FF (decimal 255)
-   defining Unicode char U+0100 (decimal 256)
-   defining Unicode char U+0101 (decimal 257)
-   defining Unicode char U+0102 (decimal 258)
-   defining Unicode char U+0103 (decimal 259)
-   defining Unicode char U+0104 (decimal 260)
-   defining Unicode char U+0105 (decimal 261)
-   defining Unicode char U+0106 (decimal 262)
-   defining Unicode char U+0107 (decimal 263)
-   defining Unicode char U+0108 (decimal 264)
-   defining Unicode char U+0109 (decimal 265)
-   defining Unicode char U+010A (decimal 266)
-   defining Unicode char U+010B (decimal 267)
-   defining Unicode char U+010C (decimal 268)
-   defining Unicode char U+010D (decimal 269)
-   defining Unicode char U+010E (decimal 270)
-   defining Unicode char U+010F (decimal 271)
-   defining Unicode char U+0110 (decimal 272)
-   defining Unicode char U+0111 (decimal 273)
-   defining Unicode char U+0112 (decimal 274)
-   defining Unicode char U+0113 (decimal 275)
-   defining Unicode char U+0114 (decimal 276)
-   defining Unicode char U+0115 (decimal 277)
-   defining Unicode char U+0116 (decimal 278)
-   defining Unicode char U+0117 (decimal 279)
-   defining Unicode char U+0118 (decimal 280)
-   defining Unicode char U+0119 (decimal 281)
-   defining Unicode char U+011A (decimal 282)
-   defining Unicode char U+011B (decimal 283)
-   defining Unicode char U+011C (decimal 284)
-   defining Unicode char U+011D (decimal 285)
-   defining Unicode char U+011E (decimal 286)
-   defining Unicode char U+011F (decimal 287)
-   defining Unicode char U+0120 (decimal 288)
-   defining Unicode char U+0121 (decimal 289)
-   defining Unicode char U+0122 (decimal 290)
-   defining Unicode char U+0123 (decimal 291)
-   defining Unicode char U+0124 (decimal 292)
-   defining Unicode char U+0125 (decimal 293)
-   defining Unicode char U+0128 (decimal 296)
-   defining Unicode char U+0129 (decimal 297)
-   defining Unicode char U+012A (decimal 298)
-   defining Unicode char U+012B (decimal 299)
-   defining Unicode char U+012C (decimal 300)
-   defining Unicode char U+012D (decimal 301)
-   defining Unicode char U+012E (decimal 302)
-   defining Unicode char U+012F (decimal 303)
-   defining Unicode char U+0130 (decimal 304)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0132 (decimal 306)
-   defining Unicode char U+0133 (decimal 307)
-   defining Unicode char U+0134 (decimal 308)
-   defining Unicode char U+0135 (decimal 309)
-   defining Unicode char U+0136 (decimal 310)
-   defining Unicode char U+0137 (decimal 311)
-   defining Unicode char U+0139 (decimal 313)
-   defining Unicode char U+013A (decimal 314)
-   defining Unicode char U+013B (decimal 315)
-   defining Unicode char U+013C (decimal 316)
-   defining Unicode char U+013D (decimal 317)
-   defining Unicode char U+013E (decimal 318)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0143 (decimal 323)
-   defining Unicode char U+0144 (decimal 324)
-   defining Unicode char U+0145 (decimal 325)
-   defining Unicode char U+0146 (decimal 326)
-   defining Unicode char U+0147 (decimal 327)
-   defining Unicode char U+0148 (decimal 328)
-   defining Unicode char U+014A (decimal 330)
-   defining Unicode char U+014B (decimal 331)
-   defining Unicode char U+014C (decimal 332)
-   defining Unicode char U+014D (decimal 333)
-   defining Unicode char U+014E (decimal 334)
-   defining Unicode char U+014F (decimal 335)
-   defining Unicode char U+0150 (decimal 336)
-   defining Unicode char U+0151 (decimal 337)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0154 (decimal 340)
-   defining Unicode char U+0155 (decimal 341)
-   defining Unicode char U+0156 (decimal 342)
-   defining Unicode char U+0157 (decimal 343)
-   defining Unicode char U+0158 (decimal 344)
-   defining Unicode char U+0159 (decimal 345)
-   defining Unicode char U+015A (decimal 346)
-   defining Unicode char U+015B (decimal 347)
-   defining Unicode char U+015C (decimal 348)
-   defining Unicode char U+015D (decimal 349)
-   defining Unicode char U+015E (decimal 350)
-   defining Unicode char U+015F (decimal 351)
-   defining Unicode char U+0160 (decimal 352)
-   defining Unicode char U+0161 (decimal 353)
-   defining Unicode char U+0162 (decimal 354)
-   defining Unicode char U+0163 (decimal 355)
-   defining Unicode char U+0164 (decimal 356)
-   defining Unicode char U+0165 (decimal 357)
-   defining Unicode char U+0168 (decimal 360)
-   defining Unicode char U+0169 (decimal 361)
-   defining Unicode char U+016A (decimal 362)
-   defining Unicode char U+016B (decimal 363)
-   defining Unicode char U+016C (decimal 364)
-   defining Unicode char U+016D (decimal 365)
-   defining Unicode char U+016E (decimal 366)
-   defining Unicode char U+016F (decimal 367)
-   defining Unicode char U+0170 (decimal 368)
-   defining Unicode char U+0171 (decimal 369)
-   defining Unicode char U+0172 (decimal 370)
-   defining Unicode char U+0173 (decimal 371)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0178 (decimal 376)
-   defining Unicode char U+0179 (decimal 377)
-   defining Unicode char U+017A (decimal 378)
-   defining Unicode char U+017B (decimal 379)
-   defining Unicode char U+017C (decimal 380)
-   defining Unicode char U+017D (decimal 381)
-   defining Unicode char U+017E (decimal 382)
-   defining Unicode char U+01CD (decimal 461)
-   defining Unicode char U+01CE (decimal 462)
-   defining Unicode char U+01CF (decimal 463)
-   defining Unicode char U+01D0 (decimal 464)
-   defining Unicode char U+01D1 (decimal 465)
-   defining Unicode char U+01D2 (decimal 466)
-   defining Unicode char U+01D3 (decimal 467)
-   defining Unicode char U+01D4 (decimal 468)
-   defining Unicode char U+01E2 (decimal 482)
-   defining Unicode char U+01E3 (decimal 483)
-   defining Unicode char U+01E6 (decimal 486)
-   defining Unicode char U+01E7 (decimal 487)
-   defining Unicode char U+01E8 (decimal 488)
-   defining Unicode char U+01E9 (decimal 489)
-   defining Unicode char U+01EA (decimal 490)
-   defining Unicode char U+01EB (decimal 491)
-   defining Unicode char U+01F0 (decimal 496)
-   defining Unicode char U+01F4 (decimal 500)
-   defining Unicode char U+01F5 (decimal 501)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+01E02 (decimal 7682)
-   defining Unicode char U+01E03 (decimal 7683)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201A (decimal 8218)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-   defining Unicode char U+201E (decimal 8222)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+2039 (decimal 8249)
-   defining Unicode char U+203A (decimal 8250)
-   defining Unicode char U+2423 (decimal 9251)
 )
-Now handling font encoding OT1 ...
-... processing UTF-8 mapping file for font encoding OT1
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
+"
+Package: babel 2018/10/16 3.26 The Babel package
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00B8 (decimal 184)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.de
+f"
+File: switch.def 2018/10/16 3.26 Babel switching mechanism
 )
-Now handling font encoding OMS ...
-... processing UTF-8 mapping file for font encoding OMS
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
+"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
 )
-Now handling font encoding OMX ...
-... no UTF-8 mapping file for font encoding OMX
-Now handling font encoding U ...
-... no UTF-8 mapping file for font encoding U
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+02C6 (decimal 710)
-   defining Unicode char U+02DC (decimal 732)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2026 (decimal 8230)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2423 (decimal 9251)
-))
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2016/02/24 3.9q The Babel package
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel-catalan/catalan.ldf
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-catalan\cat
+alan.ldf"
 Language: catalan 2005/03/29 v2.2p Catalan support from the babel system
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2016/02/24 3.9q Babel common definitions
-\babel@savecnt=\count87
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def
+"
+File: babel.def 2018/10/16 3.26 Babel common definitions
+\babel@savecnt=\count88
 \U@D=\dimen103
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.
+def")
+\bbl@dirlevel=\count89
 )
 Package babel Info: Making " an active character on input line 91.
 Warning: You are using encoding OT1 instead of T1.
@@ -351,17 +63,21 @@ Some word breaks will not be found.
 \rightllkern=\dimen105
 \raiselldim=\dimen106
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\subcaptio
+n.sty"
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.s
+ty"
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3.
+sty"
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.s
+ty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
@@ -373,109 +89,125 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \caption@parindent=\dimen112
 \caption@hangindent=\dimen113
 )
-\c@ContinuedFloat=\count88
+\c@caption@flags=\count90
+\c@ContinuedFloat=\count91
 )
-\c@subfigure=\count89
-\c@subtable=\count90
+\c@subfigure=\count92
+\c@subtable=\count93
 )
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\todonotes\todonot
+es.sty"
 Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
 Package: todonotes 2012/07/25
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.s
+ty"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyval
+.tex"
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvutil
+s.tex"
 \XKV@toks=\toks17
 \XKV@tempa@toks=\toks18
 )
-\XKV@depth=\count91
+\XKV@depth=\count94
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\colo
+r.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdft
+ex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-\Gread@gobject=\count92
-)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
-Package xcolor Info: Model `RGB' extended on input line 1353.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\frontendlayer
+\tikz.sty"
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pg
+f.sty"
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgf
+rcs.sty"
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
+gfutil-common.tex"
 \pgfutil@everybye=\toks19
 \pgfutil@tempdima=\dimen114
 \pgfutil@tempdimb=\dimen115
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
-ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
+gfutil-common-lists.tex"))
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
+gfutil-latex.def"
 \pgfutil@abb=\box26
-(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
+gfrcs.code.tex"
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pg
+fcore.sty"
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx
+.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics
+.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\grap
+hics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 95.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 )
 \Gin@req@height=\dimen116
 \Gin@req@width=\dimen117
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\systemlayer\p
+gfsys.sty"
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer
+\pgfsys.code.tex"
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
+gfkeys.code.tex"
 \pgfkeys@pathtoks=\toks20
 \pgfkeys@temptoks=\toks21
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
-ex
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
+gfkeysfiltered.code.tex"
 \pgfkeys@tmptoks=\toks22
 ))
 \pgf@x=\dimen118
@@ -488,71 +220,81 @@ ex
 \pgf@yc=\dimen125
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count93
-\c@pgf@countb=\count94
-\c@pgf@countc=\count95
-\c@pgf@countd=\count96
+\c@pgf@counta=\count95
+\c@pgf@countb=\count96
+\c@pgf@countc=\count97
+\c@pgf@countd=\count98
 \t@pgf@toka=\toks23
 \t@pgf@tokb=\toks24
 \t@pgf@tokc=\toks25
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer
+\pgf.cfg"
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer
+\pgfsys-pdftex.def"
 File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
-f
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer
+\pgfsys-common-pdf.def"
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
-tex
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer
+\pgfsyssoftpath.code.tex"
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count97
-\pgfsyssoftpath@bigbuffer@items=\count98
+\pgfsyssoftpath@smallbuffer@items=\count99
+\pgfsyssoftpath@bigbuffer@items=\count100
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
-tex
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer
+\pgfsysprotocol.code.tex"
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcore.code.tex"
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+h.code.tex"
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hcalc.code.tex"
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hutil.code.tex")
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hparser.code.tex"
 \pgfmath@dimen=\dimen126
-\pgfmath@count=\count99
+\pgfmath@count=\count101
 \pgfmath@box=\box27
 \pgfmath@toks=\toks26
 \pgfmath@stack@operand=\toks27
 \pgfmath@stack@operation=\toks28
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
-ric.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
-e.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
-.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
-thmetics.code.tex)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count100
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfunctions.code.tex"
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfunctions.basic.code.tex")
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfunctions.trigonometric.code.tex")
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfunctions.random.code.tex")
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfunctions.comparison.code.tex")
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfunctions.base.code.tex")
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfunctions.round.code.tex")
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfunctions.misc.code.tex")
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfunctions.integerarithmetics.code.tex")))
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count102
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
-x
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcorepoints.code.tex"
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen127
 \pgf@picmaxx=\dimen128
@@ -569,115 +311,130 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@zx=\dimen139
 \pgf@zy=\dimen140
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
-code.tex
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcorepathconstruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen141
 \pgf@path@lasty=\dimen142
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
-.tex
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcorepathusage.code.tex"
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen143
 \pgf@shorten@start@additional=\dimen144
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
-x
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcorescopes.code.tex"
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box28
 \pgf@hbox=\box29
 \pgf@layerbox@main=\box30
-\pgf@picture@serial@count=\count101
+\pgf@picture@serial@count=\count103
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
-ode.tex
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcoregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen145
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
-s.code.tex
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcoretransformations.code.tex"
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen146
 \pgf@pt@y=\dimen147
 \pgf@pt@temp=\dimen148
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcorequick.code.tex"
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
-ex
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcoreobjects.code.tex"
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
-.code.tex
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcorepathprocessing.code.tex"
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
-x
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcorearrows.code.tex"
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 \pgfarrowsep=\dimen149
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen150
-\pgf@sys@shading@range@num=\count102
+\pgf@sys@shading@range@num=\count104
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcoreimage.code.tex"
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
-tex
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcoreexternal.code.tex"
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box31
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
-x
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcorelayers.code.tex"
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
-ode.tex
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcoretransparency.code.tex"
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
-tex
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcorepatterns.code.tex"
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgf
+moduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 \pgfnodeparttextbox=\box32
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgf
+moduleplot.code.tex"
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
-.sty
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility
+\pgfcomp-version-0-65.sty"
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen151
 \pgf@nodesepend=\dimen152
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
-.sty
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility
+\pgfcomp-version-1-18.sty"
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+))
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgf
+for.sty"
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgf
+keys.sty"
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
+gfkeys.code.tex"))
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.
+sty"
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+h.code.tex"))
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
+gffor.code.tex"
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+h.code.tex")
 \pgffor@iter=\dimen153
 \pgffor@skip=\dimen154
 \pgffor@stack=\toks29
 \pgffor@toks=\toks30
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlay
+er\tikz\tikz.code.tex"
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
-.code.tex
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\p
+gflibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count103
+\pgf@plot@mark@count=\count105
 \pgfplotmarksize=\dimen155
 )
 \tikz@lastx=\dimen156
@@ -690,72 +447,78 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box34
 \tikz@tempbox=\box35
 \tikz@tempbox@bg=\box36
-\tikztreelevel=\count104
-\tikznumberofchildren=\count105
-\tikznumberofcurrentchild=\count106
-\tikz@fig@count=\count107
+\tikztreelevel=\count106
+\tikznumberofchildren=\count107
+\tikznumberofcurrentchild=\count108
+\tikz@fig@count=\count109
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgf
+modulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count108
-\pgfmatrixcurrentcolumn=\count109
-\pgf@matrix@numberofcolumns=\count110
+\pgfmatrixcurrentrow=\count110
+\pgfmatrixcurrentcolumn=\count111
+\pgf@matrix@numberofcolumns=\count112
 )
-\tikz@expandcount=\count111
+\tikz@expandcount=\count113
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarytopaths.code.tex
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlay
+er\tikz\libraries\tikzlibrarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarypositioning.code.tex
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlay
+er\tikz\libraries\tikzlibrarypositioning.code.tex"
 File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count112
-\calc@Bcount=\count113
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count114
+\calc@Bcount=\count115
 \calc@Adimen=\dimen162
 \calc@Bdimen=\dimen163
 \calc@Askip=\skip43
 \calc@Bskip=\skip44
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count114
+\calc@Ccount=\count116
 \calc@Cskip=\skip45
 )
-\c@@todonotes@numberoftodonotes=\count115
-) (./mcode.sty
+\c@@todonotes@numberoftodonotes=\count117
+) (mcode.sty
 -- Package: `mcode' 2.5 <2014/03/06> --
 Package: mcode 2014/03/06 2.5
  - settings optimized for display (colour formating)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count116
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings
+.sty"
+\lst@mode=\count118
 \lst@gtempboxa=\box37
 \lst@token=\toks31
-\lst@length=\count117
+\lst@length=\count119
 \lst@currlwidth=\dimen164
-\lst@column=\count118
-\lst@pos=\count119
+\lst@column=\count120
+\lst@pos=\count121
 \lst@lostspace=\dimen165
 \lst@width=\dimen166
-\lst@newlines=\count120
-\lst@lineno=\count121
+\lst@newlines=\count122
+\lst@lineno=\count123
 \lst@maxwidth=\dimen167
 
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count122
-\lst@skipnumbers=\count123
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.
+sty"
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+\c@lstnumber=\count124
+\lst@skipnumbers=\count125
 \lst@framebox=\box38
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2015/06/04 1.6 listings configuration
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings
+.cfg"
+File: listings.cfg 2018/09/02 1.7 listings configuration
 ))
-Package: listings 2015/06/04 1.6 (Carsten Heinz)
+Package: listings 2018/09/02 1.7 (Carsten Heinz)
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.sty
+"
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
 (textcomp)               4 = 5 + \texteuro
@@ -768,14 +531,12 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             Family '?' is the default used for unknown fonts.
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+ ("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu
-File: ts1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+ ("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
+File: ts1enc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00A4 (decimal 164)
@@ -845,6 +606,7 @@ File: ts1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+25E6 (decimal 9702)
    defining Unicode char U+25EF (decimal 9711)
    defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
 ))
 LaTeX Info: Redefining \oldstylenums on input line 334.
 Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
@@ -910,78 +672,93 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyvrb\fancyvrb
+.sty"
 Package: fancyvrb 2008/02/07
 
 Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
 <2008/02/07> (tvz)
-\FV@CodeLineNo=\count124
+\FV@CodeLineNo=\count126
 \FV@InFile=\read2
 \FV@TabBox=\box39
-\c@FancyVerbLine=\count125
-\FV@StepNumber=\count126
+\c@FancyVerbLine=\count127
+\FV@StepNumber=\count128
 \FV@OutFile=\write4
 )
-(/usr/share/texlive/texmf-dist/tex/latex/eurosym/eurosym.sty
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eurosym\eurosym.s
+ty"
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box40
 )
-(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.s
+ty"
 \wrapoverhang=\dimen168
 \WF@size=\dimen169
-\c@WF@wrappedlines=\count127
+\c@WF@wrappedlines=\count129
 \WF@box=\box41
 \WF@everypar=\toks32
 Package: wrapfig 2003/01/31  v 3.6
 )
-(/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\appendix\appendix
+.sty"
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count128
-\c@@ppsavesec=\count129
-\c@@ppsaveapp=\count130
+\c@@pps=\count130
+\c@@ppsavesec=\count131
+\c@@ppsaveapp=\count132
 )
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrextend.sty
-Package: scrextend 2015/10/03 v3.19a KOMA-Script package (extend other classes 
-with features of KOMA-Script classes)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\screx
+tend.sty"
+Package: scrextend 2018/03/30 v3.25 KOMA-Script package (extend other classes w
+ith features of KOMA-Script classes)
 
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2015/10/03 v3.19a KOMA-Script package (KOMA-Script-dependent 
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrkb
+ase.sty"
+Package: scrkbase 2018/03/30 v3.25 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrba
+se.sty"
+Package: scrbase 2018/03/30 v3.25 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2015/10/03 v3.19a KOMA-Script package (KOMA-Script-independent
- basics and keyval usage)
-
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2015/10/03 v3.19a KOMA-Script package (loading files)
-
-Package scrlfile, 2015/10/03 v3.19a KOMA-Script package (loading files)
-                  Copyright (C) Markus Kohm
-
-)))
-LaTeX Info: Redefining \textsubscript on input line 1277.
-) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrlf
+ile.sty"
+Package: scrlfile 2018/03/30 v3.25 KOMA-Script package (loading files)
+))))
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\enumitem\enumitem
+.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip46
 \enit@outerparindent=\dimen170
 \enit@toks=\toks33
 \enit@inbox=\box42
-\enitdp@description=\count131
-)
-(./dirtytalk.sty
+\enitdp@description=\count133
+) (dirtytalk.sty
 Package: dirtytalk 2010/11/21 A package making "quoting" easier
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoption
+s.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmd
+s.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetk
+eys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwar
+err.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcm
+ds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluat
+ex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
 Package etexcmds Info: Could not find \expanded.
@@ -989,18 +766,19 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-\c@dirtytalk@qdepth=\count132
+\c@dirtytalk@qdepth=\count134
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
-\c@tracingmulticols=\count133
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\multicol.st
+y"
+Package: multicol 2018/04/20 v1.8s multicolumn formatting (FMi)
+\c@tracingmulticols=\count135
 \mult@box=\box43
 \multicol@leftmargin=\dimen171
-\c@unbalance=\count134
-\c@collectmore=\count135
-\doublecol@number=\count136
-\multicoltolerance=\count137
-\multicolpretolerance=\count138
+\c@unbalance=\count136
+\c@collectmore=\count137
+\doublecol@number=\count138
+\multicoltolerance=\count139
+\multicolpretolerance=\count140
 \full@width=\dimen172
 \page@free=\dimen173
 \premulticols=\dimen174
@@ -1031,39 +809,46 @@ Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
 \@tempa=\box64
 \@tempa=\box65
 \@tempa=\box66
-\c@columnbadness=\count139
-\c@finalcolumnbadness=\count140
+\c@columnbadness=\count141
+\c@finalcolumnbadness=\count142
 \last@try=\dimen177
 \multicolovershoot=\dimen178
 \multicolundershoot=\dimen179
 \mult@nat@firstbox=\box67
 \colbreak@box=\box68
-\mc@col@check@num=\count141
+\mc@col@check@num=\count143
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/listingsutf8.sty
-Package: listingsutf8 2011/11/10 v1.2 Allow UTF-8 in listings input (HO)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\listings
+utf8.sty"
+Package: listingsutf8 2016/05/16 v1.3 Allow UTF-8 in listings input (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftex
+cmds.sty"
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.
+sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/stringenc.sty
-Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\string
+enc.sty"
+Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
 )
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdfescape.sty
-Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
-)))
-(./memoria.aux)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdfesc
+ape.sty"
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+))) (memoria.aux
+
+LaTeX Warning: Label `fig:mapa_areas' multiply defined.
+
+)
 \openout1 = `memoria.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
@@ -1080,7 +865,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 38.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+ ("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 38.
@@ -1091,50 +876,56 @@ Package caption Info: listings package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.m
+kii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count142
+\scratchcounter=\count144
 \scratchdimen=\dimen180
 \scratchbox=\box69
-\nofMPsegments=\count143
-\nofMParguments=\count144
+\nofMPsegments=\count145
+\nofMParguments=\count146
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count145
+\MPscratchCnt=\count147
 \MPscratchDim=\dimen181
-\MPnumerator=\count146
-\makeMPintoPDFobject=\count147
+\MPnumerator=\count148
+\makeMPintoPDFobject=\count149
 \everyMPtoPDFconversion=\toks35
-) ABD: EveryShipout initializing macros
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf
+-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.s
+ty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefi
+nekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
+(grfext)             \AppendGraphicsExtensions on input line 456.
+) ABD: EveryShipout initializing macros
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-\c@lstlisting=\count148
+Package todonotes Warning: The length marginparwidth is less than 2cm and will 
+most likely cause issues with the appearance of inserted todonotes. The issue c
+an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
+loading the todonotes package. on input line 38.
 
+\c@lstlisting=\count150
 <imatges/logo3.png, id=4, 609.27625pt x 418.56375pt>
 File: imatges/logo3.png Graphic file (type png)
- <use imatges/logo3.png>
-Package pdftex.def Info: imatges/logo3.png used on input line 41.
+<use imatges/logo3.png>
+Package pdftex.def Info: imatges/logo3.png  used on input line 41.
 (pdftex.def)             Requested size: 241.84842pt x 166.14517pt.
-
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./imatges/logo3.png>]
-(./memoria.toc
+{C:/Users/Meriem/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./imatges/
+logo3.png>] (memoria.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1145,65 +936,126 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write5
 \openout5 = `memoria.toc'.
 
- [1] (./memoria.lof)
+ [1] (memoria.lof)
 \tf@lof=\write6
 \openout6 = `memoria.lof'.
 
  [2
 
 ]
-<imatges/mapa_disney_land_paris.jpg, id=22, 1254.6875pt x 856.19875pt>
+<imatges/mapa_disney_land_paris.jpg, id=23, 1254.6875pt x 856.19875pt>
 File: imatges/mapa_disney_land_paris.jpg Graphic file (type jpg)
-
 <use imatges/mapa_disney_land_paris.jpg>
-Package pdftex.def Info: imatges/mapa_disney_land_paris.jpg used on input line 
-71.
+Package pdftex.def Info: imatges/mapa_disney_land_paris.jpg  used on input line
+ 71.
 (pdftex.def)             Requested size: 338.5863pt x 231.0461pt.
  [3
 
- <./imatges/mapa_disney_land_paris.jpg>] <imatges/magic_bands.jpg, id=26, 903.3
-75pt x 542.025pt>
+ <./imatges/mapa_disney_land_paris.jpg>]
+<imatges/magic_bands.jpg, id=27, 903.375pt x 542.025pt>
 File: imatges/magic_bands.jpg Graphic file (type jpg)
-
 <use imatges/magic_bands.jpg>
-Package pdftex.def Info: imatges/magic_bands.jpg used on input line 86.
+Package pdftex.def Info: imatges/magic_bands.jpg  used on input line 86.
 (pdftex.def)             Requested size: 362.77263pt x 217.66629pt.
  [4
 
  <./imatges/magic_bands.jpg>]
-<imatges/mapa_areas.png, id=30, 1431.84938pt x 1081.79156pt>
+<imatges/mapa_areas.png, id=31, 1431.84938pt x 1081.79156pt>
 File: imatges/mapa_areas.png Graphic file (type png)
-
 <use imatges/mapa_areas.png>
-Package pdftex.def Info: imatges/mapa_areas.png used on input line 113.
+Package pdftex.def Info: imatges/mapa_areas.png  used on input line 112.
 (pdftex.def)             Requested size: 241.84842pt x 182.71364pt.
  [5
 
  <./imatges/mapa_areas.png
 
-pdfTeX warning: pdflatex (file ./imatges/mapa_areas.png): large interlaced PNG 
-might cause out of memory (use non-interlaced PNG to fix this)
->] [6] [7
+pdfTeX warning: pdflatex.exe (file ./imatges/mapa_areas.png): large interlaced 
+PNG might cause out of memory (use non-interlaced PNG to fix this)
+>]
+File: imatges/mapa_areas.png Graphic file (type png)
+<use imatges/mapa_areas.png>
+Package pdftex.def Info: imatges/mapa_areas.png  used on input line 127.
+(pdftex.def)             Requested size: 241.84842pt x 182.71364pt.
+<imatges/diagrama_voronoi_ordre_1.png, id=36, 1431.84938pt x 1081.79156pt>
+File: imatges/diagrama_voronoi_ordre_1.png Graphic file (type png)
+<use imatges/diagrama_voronoi_ordre_1.png>
+Package pdftex.def Info: imatges/diagrama_voronoi_ordre_1.png  used on input li
+ne 139.
+(pdftex.def)             Requested size: 241.84842pt x 182.71364pt.
+ [6]
+<imatges/diagrama_voronoi_ordre_2.png, id=41, 1431.84938pt x 1081.79156pt>
+File: imatges/diagrama_voronoi_ordre_2.png Graphic file (type png)
+<use imatges/diagrama_voronoi_ordre_2.png>
+Package pdftex.def Info: imatges/diagrama_voronoi_ordre_2.png  used on input li
+ne 153.
+(pdftex.def)             Requested size: 241.84842pt x 182.71364pt.
 
-] [8
 
-] (./memoria.aux) ) 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<imatges/zones_candidates.png, id=42, 1431.84938pt x 1081.79156pt>
+File: imatges/zones_candidates.png Graphic file (type png)
+<use imatges/zones_candidates.png>
+Package pdftex.def Info: imatges/zones_candidates.png  used on input line 163.
+(pdftex.def)             Requested size: 241.84842pt x 182.71364pt.
+[7 <./imatges/diagrama_voronoi_ordre_1.png
+
+pdfTeX warning: pdflatex.exe (file ./imatges/diagrama_voronoi_ordre_1.png): lar
+ge interlaced PNG might cause out of memory (use non-interlaced PNG to fix this
+)
+>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<imatges/mapa_restaurants.png, id=47, 1431.84938pt x 1081.79156pt>
+File: imatges/mapa_restaurants.png Graphic file (type png)
+<use imatges/mapa_restaurants.png>
+Package pdftex.def Info: imatges/mapa_restaurants.png  used on input line 178.
+(pdftex.def)             Requested size: 241.84842pt x 182.71364pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8 <./imatges/diagrama_voronoi_ordre_2.png
+
+pdfTeX warning: pdflatex.exe (file ./imatges/diagrama_voronoi_ordre_2.png): lar
+ge interlaced PNG might cause out of memory (use non-interlaced PNG to fix this
+)
+>] [9 <./imatges/zones_candidates.png
+
+pdfTeX warning: pdflatex.exe (file ./imatges/zones_candidates.png): large inter
+laced PNG might cause out of memory (use non-interlaced PNG to fix this)
+> <./imatges/mapa_restaurants.png
+
+pdfTeX warning: pdflatex.exe (file ./imatges/mapa_restaurants.png): large inter
+laced PNG might cause out of memory (use non-interlaced PNG to fix this)
+>] [10
+
+] [11
+
+] (memoria.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 17607 strings out of 494850
- 329477 string characters out of 6178023
- 381828 words of memory out of 5000000
- 20559 multiletter control sequences out of 15000+600000
- 9796 words of font info for 34 fonts, out of 8000000 for 9000
- 62 hyphenation exceptions out of 8191
- 62i,6n,77p,623b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcs
-c10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on memoria.pdf (9 pages, 4834673 bytes).
+ 17506 strings out of 492970
+ 337164 string characters out of 3126149
+ 397238 words of memory out of 3000000
+ 21032 multiletter control sequences out of 15000+200000
+ 9796 words of font info for 34 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,6n,77p,625b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Meriem/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmbx12.pfb><C:/Users/Meriem/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmcsc10.pfb><C:/Users/Meriem/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Meriem/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Meriem/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Use
+rs/Meriem/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti
+12.pfb>
+Output written on memoria.pdf (12 pages, 22507576 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 83 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

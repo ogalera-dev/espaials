@@ -1,8 +1,12 @@
-\select@language {catalan}
+\babel@toc {catalan}{}
 \contentsline {section}{\numberline {1}Introducci\IeC {\'o}}{3}
 \contentsline {section}{\numberline {2}Objectiu}{4}
 \contentsline {section}{\numberline {3}Definici\IeC {\'o} del problema}{5}
 \contentsline {subsection}{\numberline {3.1}Donarem un pes a cada atracci\IeC {\'o}}{5}
-\contentsline {subsection}{\numberline {3.2}Repartir el mapa en \IeC {\`a}rees}{5}
-\contentsline {section}{\numberline {4}Articles}{7}
-\contentsline {section}{\numberline {5}Bibliografia}{8}
+\contentsline {subsection}{\numberline {3.2}Repartir el mapa en \IeC {\`a}rees}{6}
+\contentsline {subsection}{\numberline {3.3}Repartir el mapa en \IeC {\`a}rees}{6}
+\contentsline {subsection}{\numberline {3.4}C\IeC {\`a}lcul de la import\IeC {\`a}ncia de cada atracci\IeC {\'o}}{7}
+\contentsline {subsection}{\numberline {3.5}Definir les zones candidates}{8}
+\contentsline {subsection}{\numberline {3.6}Ubicar els restaurants}{8}
+\contentsline {section}{\numberline {4}Articles}{10}
+\contentsline {section}{\numberline {5}Bibliografia}{11}
