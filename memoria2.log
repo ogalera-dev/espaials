@@ -1,0 +1,1002 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.22)  23 OCT 2018 07:56
+entering extended mode
+**./memoria2.tex
+(memoria2.tex
+LaTeX2e <2018-04-01> patch level 5
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
+"
+Package: babel 2018/10/16 3.26 The Babel package
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.de
+f"
+File: switch.def 2018/10/16 3.26 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
+"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-catalan\cat
+alan.ldf"
+Language: catalan 2005/03/29 v2.2p Catalan support from the babel system
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def
+"
+File: babel.def 2018/10/16 3.26 Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.
+def")
+\bbl@dirlevel=\count89
+)
+Package babel Info: Making " an active character on input line 91.
+Warning: You are using encoding OT1 instead of T1.
+Some word breaks will not be found.
+\leftllkern=\dimen104
+\rightllkern=\dimen105
+\raiselldim=\dimen106
+))
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
+"
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\subcaptio
+n.sty"
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.s
+ty"
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3.
+sty"
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.s
+ty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+\captionmargin=\dimen107
+\captionmargin@=\dimen108
+\captionwidth=\dimen109
+\caption@tempdima=\dimen110
+\caption@indent=\dimen111
+\caption@parindent=\dimen112
+\caption@hangindent=\dimen113
+)
+\c@caption@flags=\count90
+\c@ContinuedFloat=\count91
+)
+\c@subfigure=\count92
+\c@subtable=\count93
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\todonotes\todonot
+es.sty"
+Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
+Package: todonotes 2012/07/25
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.s
+ty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyval
+.tex"
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvutil
+s.tex"
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
+)
+\XKV@depth=\count94
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\colo
+r.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdft
+ex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\frontendlayer
+\tikz.sty"
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pg
+f.sty"
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgf
+rcs.sty"
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
+gfutil-common.tex"
+\pgfutil@everybye=\toks19
+\pgfutil@tempdima=\dimen114
+\pgfutil@tempdimb=\dimen115
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
+gfutil-common-lists.tex"))
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
+gfutil-latex.def"
+\pgfutil@abb=\box26
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
+gfrcs.code.tex"
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pg
+fcore.sty"
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx
+.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics
+.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\grap
+hics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen116
+\Gin@req@width=\dimen117
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\systemlayer\p
+gfsys.sty"
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer
+\pgfsys.code.tex"
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
+gfkeys.code.tex"
+\pgfkeys@pathtoks=\toks20
+\pgfkeys@temptoks=\toks21
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
+gfkeysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks22
+))
+\pgf@x=\dimen118
+\pgf@y=\dimen119
+\pgf@xa=\dimen120
+\pgf@ya=\dimen121
+\pgf@xb=\dimen122
+\pgf@yb=\dimen123
+\pgf@xc=\dimen124
+\pgf@yc=\dimen125
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count95
+\c@pgf@countb=\count96
+\c@pgf@countc=\count97
+\c@pgf@countd=\count98
+\t@pgf@toka=\toks23
+\t@pgf@tokb=\toks24
+\t@pgf@tokc=\toks25
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer
+\pgf.cfg"
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer
+\pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer
+\pgfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer
+\pgfsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count99
+\pgfsyssoftpath@bigbuffer@items=\count100
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer
+\pgfsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcore.code.tex"
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+h.code.tex"
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hcalc.code.tex"
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hutil.code.tex")
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hparser.code.tex"
+\pgfmath@dimen=\dimen126
+\pgfmath@count=\count101
+\pgfmath@box=\box27
+\pgfmath@toks=\toks26
+\pgfmath@stack@operand=\toks27
+\pgfmath@stack@operation=\toks28
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfunctions.code.tex"
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfunctions.basic.code.tex")
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfunctions.trigonometric.code.tex")
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfunctions.random.code.tex")
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfunctions.comparison.code.tex")
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfunctions.base.code.tex")
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfunctions.round.code.tex")
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfunctions.misc.code.tex")
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfunctions.integerarithmetics.code.tex")))
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count102
+))
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen127
+\pgf@picmaxx=\dimen128
+\pgf@picminy=\dimen129
+\pgf@picmaxy=\dimen130
+\pgf@pathminx=\dimen131
+\pgf@pathmaxx=\dimen132
+\pgf@pathminy=\dimen133
+\pgf@pathmaxy=\dimen134
+\pgf@xx=\dimen135
+\pgf@xy=\dimen136
+\pgf@yx=\dimen137
+\pgf@yy=\dimen138
+\pgf@zx=\dimen139
+\pgf@zy=\dimen140
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcorepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen141
+\pgf@path@lasty=\dimen142
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen143
+\pgf@shorten@start@additional=\dimen144
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box28
+\pgf@hbox=\box29
+\pgf@layerbox@main=\box30
+\pgf@picture@serial@count=\count103
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcoregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen145
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcoretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen146
+\pgf@pt@y=\dimen147
+\pgf@pt@temp=\dimen148
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcorepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen149
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen150
+\pgf@sys@shading@range@num=\count104
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box31
+))
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcoretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgf
+moduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box32
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgf
+moduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility
+\pgfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen151
+\pgf@nodesepend=\dimen152
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility
+\pgfcomp-version-1-18.sty"
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+))
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgf
+for.sty"
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgf
+keys.sty"
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
+gfkeys.code.tex"))
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.
+sty"
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+h.code.tex"))
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
+gffor.code.tex"
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+h.code.tex")
+\pgffor@iter=\dimen153
+\pgffor@skip=\dimen154
+\pgffor@stack=\toks29
+\pgffor@toks=\toks30
+))
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlay
+er\tikz\tikz.code.tex"
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\p
+gflibraryplothandlers.code.tex"
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count105
+\pgfplotmarksize=\dimen155
+)
+\tikz@lastx=\dimen156
+\tikz@lasty=\dimen157
+\tikz@lastxsaved=\dimen158
+\tikz@lastysaved=\dimen159
+\tikzleveldistance=\dimen160
+\tikzsiblingdistance=\dimen161
+\tikz@figbox=\box33
+\tikz@figbox@bg=\box34
+\tikz@tempbox=\box35
+\tikz@tempbox@bg=\box36
+\tikztreelevel=\count106
+\tikznumberofchildren=\count107
+\tikznumberofcurrentchild=\count108
+\tikz@fig@count=\count109
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgf
+modulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count110
+\pgfmatrixcurrentcolumn=\count111
+\pgf@matrix@numberofcolumns=\count112
+)
+\tikz@expandcount=\count113
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlay
+er\tikz\libraries\tikzlibrarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlay
+er\tikz\libraries\tikzlibrarypositioning.code.tex"
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count114
+\calc@Bcount=\count115
+\calc@Adimen=\dimen162
+\calc@Bdimen=\dimen163
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count116
+\calc@Cskip=\skip45
+)
+\c@@todonotes@numberoftodonotes=\count117
+) (mcode.sty
+-- Package: `mcode' 2.5 <2014/03/06> --
+Package: mcode 2014/03/06 2.5
+ - settings optimized for display (colour formating)
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings
+.sty"
+\lst@mode=\count118
+\lst@gtempboxa=\box37
+\lst@token=\toks31
+\lst@length=\count119
+\lst@currlwidth=\dimen164
+\lst@column=\count120
+\lst@pos=\count121
+\lst@lostspace=\dimen165
+\lst@width=\dimen166
+\lst@newlines=\count122
+\lst@lineno=\count123
+\lst@maxwidth=\dimen167
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.
+sty"
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+\c@lstnumber=\count124
+\lst@skipnumbers=\count125
+\lst@framebox=\box38
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings
+.cfg"
+File: listings.cfg 2018/09/02 1.7 listings configuration
+))
+Package: listings 2018/09/02 1.7 (Carsten Heinz)
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.sty
+"
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+ ("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+ ("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
+File: ts1enc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+))
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyvrb\fancyvrb
+.sty"
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count126
+\FV@InFile=\read2
+\FV@TabBox=\box39
+\c@FancyVerbLine=\count127
+\FV@StepNumber=\count128
+\FV@OutFile=\write4
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eurosym\eurosym.s
+ty"
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box40
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.s
+ty"
+\wrapoverhang=\dimen168
+\WF@size=\dimen169
+\c@WF@wrappedlines=\count129
+\WF@box=\box41
+\WF@everypar=\toks32
+Package: wrapfig 2003/01/31  v 3.6
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\appendix\appendix
+.sty"
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count130
+\c@@ppsavesec=\count131
+\c@@ppsaveapp=\count132
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\algorithms\algori
+thmic.sty"
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count133
+\c@ALC@line=\count134
+\c@ALC@rem=\count135
+\c@ALC@depth=\count136
+\ALC@tlm=\skip46
+\algorithmicindent=\skip47
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\screx
+tend.sty"
+Package: scrextend 2018/03/30 v3.25 KOMA-Script package (extend other classes w
+ith features of KOMA-Script classes)
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrkb
+ase.sty"
+Package: scrkbase 2018/03/30 v3.25 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrba
+se.sty"
+Package: scrbase 2018/03/30 v3.25 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrlf
+ile.sty"
+Package: scrlfile 2018/03/30 v3.25 KOMA-Script package (loading files)
+))))
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\enumitem\enumitem
+.sty"
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip48
+\enit@outerparindent=\dimen170
+\enit@toks=\toks33
+\enit@inbox=\box42
+\enitdp@description=\count137
+) (dirtytalk.sty
+Package: dirtytalk 2010/11/21 A package making "quoting" easier
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoption
+s.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmd
+s.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetk
+eys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwar
+err.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcm
+ds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluat
+ex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+\c@dirtytalk@qdepth=\count138
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\multicol.st
+y"
+Package: multicol 2018/04/20 v1.8s multicolumn formatting (FMi)
+\c@tracingmulticols=\count139
+\mult@box=\box43
+\multicol@leftmargin=\dimen171
+\c@unbalance=\count140
+\c@collectmore=\count141
+\doublecol@number=\count142
+\multicoltolerance=\count143
+\multicolpretolerance=\count144
+\full@width=\dimen172
+\page@free=\dimen173
+\premulticols=\dimen174
+\postmulticols=\dimen175
+\multicolsep=\skip49
+\multicolbaselineskip=\skip50
+\partial@page=\box44
+\last@line=\box45
+\maxbalancingoverflow=\dimen176
+\mult@rightbox=\box46
+\mult@grightbox=\box47
+\mult@gfirstbox=\box48
+\mult@firstbox=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\c@columnbadness=\count145
+\c@finalcolumnbadness=\count146
+\last@try=\dimen177
+\multicolovershoot=\dimen178
+\multicolundershoot=\dimen179
+\mult@nat@firstbox=\box67
+\colbreak@box=\box68
+\mc@col@check@num=\count147
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\listings
+utf8.sty"
+Package: listingsutf8 2016/05/16 v1.3 Allow UTF-8 in listings input (HO)
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftex
+cmds.sty"
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.
+sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\string
+enc.sty"
+Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
+)
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdfesc
+ape.sty"
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+))) (memoria2.aux)
+\openout1 = `memoria2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 41.
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Info: Redefining \l on input line 41.
+LaTeX Info: Redefining \L on input line 41.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.m
+kii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count148
+\scratchdimen=\dimen180
+\scratchbox=\box69
+\nofMPsegments=\count149
+\nofMParguments=\count150
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count151
+\MPscratchDim=\dimen181
+\MPnumerator=\count152
+\makeMPintoPDFobject=\count153
+\everyMPtoPDFconversion=\toks35
+)
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf
+-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.s
+ty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefi
+nekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+) ABD: EveryShipout initializing macros
+
+Package todonotes Warning: The length marginparwidth is less than 2cm and will 
+most likely cause issues with the appearance of inserted todonotes. The issue c
+an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
+loading the todonotes package. on input line 41.
+
+\c@lstlisting=\count154
+<imatges/logo3.png, id=4, 609.27625pt x 418.56375pt>
+File: imatges/logo3.png Graphic file (type png)
+<use imatges/logo3.png>
+Package pdftex.def Info: imatges/logo3.png  used on input line 44.
+(pdftex.def)             Requested size: 241.84842pt x 166.14517pt.
+Missing character: There is no à in font cmbx12!
+Missing character: There is no à in font cmcsc10!
+Missing character: There is no à in font cmcsc10!
+[1
+
+{C:/Users/Meriem/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./imatges/
+logo3.png>] (memoria2.toc
+Missing character: There is no ó in font cmbx12!
+Missing character: There is no ó in font cmbx12!
+)
+\tf@toc=\write5
+\openout5 = `memoria2.toc'.
+
+ [1] (memoria2.lof)
+\tf@lof=\write6
+\openout6 = `memoria2.lof'.
+
+ [2
+
+]
+Missing character: There is no ó in font cmbx12!
+Missing character: There is no ç in font cmr12!
+Missing character: There is no é in font cmr12!
+Missing character: There is no ç in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ó in font cmr12!
+Missing character: There is no à in font cmr12!
+Missing character: There is no ó in font cmr12!
+Missing character: There is no ó in font cmr12!
+ [3
+
+]
+Missing character: There is no é in font cmr12!
+Missing character: There is no í in font cmr12!
+Missing character: There is no à in font cmr12!
+ [4
+
+]
+Missing character: There is no ó in font cmbx12!
+Missing character: There is no ó in font cmbx12!
+ [5
+
+] [6
+
+] [7
+
+]
+[8
+
+] [9
+
+] (memoria2.aux) ) 
+Here is how much of TeX's memory you used:
+ 17383 strings out of 492970
+ 335386 string characters out of 3126149
+ 396883 words of memory out of 3000000
+ 20920 multiletter control sequences out of 15000+200000
+ 7011 words of font info for 25 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,5n,74p,441b,217s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Meriem/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Meriem/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Meriem/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Meriem/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on memoria2.pdf (10 pages, 101388 bytes).
+PDF statistics:
+ 57 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+
