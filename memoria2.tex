@@ -79,7 +79,7 @@ Degut a l'èxit generat de Disney Land Paris, el propietari de Disney Land Paris 
 \section{Objectiu}
 L'objectiu del projecte és \textbf{fer la distribució dels restaurants més cars donades unes determinades zones per maximitzar els beneficis del parc}. Aquestes zones són zones candidates, on es poden posar restaurants, del mapa d'atraccions del territori gironí.
 
-Per dur a terme aquest objectiu considerem que el mapa d'atraccions del nou territori és el mateix que el de DLP i que les “\textit{Magic Bands}” (\ref{fig:magic_bands}) recullen i emmagatzemen la informació de la posició dels seus usuaris cada 5 minuts. 
+Per dur a terme aquest objectiu considerem que el mapa d'atraccions del nou territori és el mateix que el de DLP; que les “\textit{Magic Bands}” (\ref{fig:magic_bands}) recullen i emmagatzemen la informació de la posició dels seus usuaris cada 5 minuts, i que disposem de tantes zones candidates o més com restaurants volguem ubicar. 
 
 Per determinar el grau d'interès de cada atracció, comptem amb una gran quantitat de dades generades per les “\textit{Magic Bands}” (\ref{fig:magic_bands}) que es reparteixen a l’entrada del parc temàtic, i que tenen per objectiu l’estudi del comportament del públic. 
 
@@ -96,29 +96,31 @@ Per determinar el grau d'interès de cada atracció, comptem amb una gran quantita
 %\subsection{Glossari}
 %Bla bla bla
 \section{Definició del problema}
-Per realitzar l'objectiu del nostre projecte, es distribuirà el procés de realitzar distribució dels restaurants més cars donades unes determinades zones per maximitzar els beneficis del parc en 5 passos.
+Per realitzar l'objectiu del nostre projecte, es distribuirà el procés de realitzar distribució dels restaurants més cars donades unes determinades zones per maximitzar els beneficis del parc en 5 passos:
 \renewcommand\labelitemii{$\square$}
 \begin{enumerate}
-  \item Donarem un pes a cada atracció
-	\begin{itemize}
-     \item El pes d’una atracció el definirem a parir de la quantitat de gent que ha pujat a una atracció. A la figura \ref{fig:magic_bands}, podem veure el mapa de les atracions amb els pesos de cada atracció.
-		
-			\begin{figure}[h!]
-				\centering
-				\includegraphics[width=0.5\textwidth]{imatges/mapa_areas.png}\par\vspace{1cm}
-				\caption{Pesos de cada atracció}
-				\label{fig:mapa_areas}
-			\end{figure}
+	\item Donarem un pes a cada atracció
+	\item Repartir el mapa en àrees
 
-		\item Una vegada tenim els pesos de totes les atraccions, realitzarem un diagrama de Voronoi, tenint en compte que els pivots estan situats sobre les entrades de les atraccions i el pes del pivot és el pes de l’atracció (nombre de visitants en un període de temps).
-		
-Això és fa perquè volem tenir el mapa repartit en àrees, on cada àrea representa la regió d’influència de l’atracció.
 
-		
-		
-	\end{itemize}
+
 \end{enumerate}
 
+%Pas 1. Donarem un pes a cada atracció
+\subsection{Donarem un pes a cada atracció}
+El pes d’una atracció el definirem a parir de la quantitat de gent que ha pujat a una atracció. A la figura \ref{fig:magic_bands}, podem veure el mapa de les atracions amb els pesos de cada atracció.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.5\textwidth]{imatges/mapa_areas.png}\par\vspace{1cm}
+	\caption{Pesos de cada atracció}
+	\label{fig:mapa_areas}
+\end{figure}
+
+\subsection{Repartir el mapa en àrees}
+Una vegada tenim els pesos de totes les atraccions, realitzarem un diagrama de Voronoi, tenint en compte que els pivots estan situats sobre les entrades de les atraccions i el pes del pivot és el pes de l’atracció (nombre de visitants en un període de temps).
+		
+Això és fa perquè volem tenir el mapa repartit en àrees, on cada àrea representa la regió d’influència de l’atracció.
 
 
 %\subsection{Pre-processament de dades}
