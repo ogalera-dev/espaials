@@ -1,6 +1,6 @@
 \documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}	
 \usepackage[catalan]{babel}
-\usepackage[utf8]{inputenc}
 \usepackage{subcaption}
 \usepackage[obeyspaces]{url}
 \usepackage[colorinlistoftodos]{todonotes}
@@ -19,7 +19,6 @@
 \usepackage{multicol}
 \usepackage{listingsutf8}
 \usepackage{dirtytalk}
-\usepackage[utf8]{inputenc}
 
 \UseRawInputEncoding
 
@@ -37,6 +36,7 @@
     commentstyle=\color{black}
 }
 
+\renewcommand{\baselinestretch}{1.5}
 
 \begin{document}
 \begin{titlepage}
@@ -61,39 +61,78 @@
 \clearpage
 
 \section{Introducció}
-Els imaginadors de Disney han descobert com mantenir el seu univers feliç el més petit possible: mitjançant l'ús de polseres RFID fredes per fer un seguiment de les identitats, els moviments i l'estat financer dels usuaris.
 
-El MyMagic + "sistema de gestió de vacances" pot fer un seguiment dels convidats a mesura que es mouen per Walt Disney World i analitzar els seus hàbits de compra.
+Els imaginadors de Disney han descobert com mantenir el seu univers feliç el més petit possible: mitjançant l'ús de polseres “\textit{Magic Bands}” per fer un seguiment de les identitats, els moviments i l'estat financer dels usuaris.
 
-A partir de la informació obtinguda del MyMagic + "sistema de gestió de vacances", es pot saber quines zones es passeja la majoria de gent.
+El MyMagic + "sistema de gestió de vacances" pot fer un seguiment dels convidats a mesura que es mouen per Disney Land Paris i analitzar els seus hàbits de compra.
 
-Degut a l'èxit generat del Walt Disney World, el propietari de Disney Land Paris ha decidit obrir un nou parc temàtic similar a Disney Land París en el territori Gironí. Ens han encarregat indicar el posicionament dels restaurants amb l’objectiu de maximitzar els beneficis generats per aquests. Per ubicar aquests restaurants, es realitzarà un estudi de la popularitat de les atraccions que hi ha a DLP a fi de determinar les zones més visitades i d’aquesta manera, fer la distribució dels restaurants més cars en aquestes zones per maximitzar els beneficis del parc.
+Degut a l'èxit generat de Disney Land Paris, el propietari de Disney Land Paris ha decidit obrir un nou parc temàtic similar a Disney Land París (\ref{fig:disney1}) en el territori Gironí. Ens han encarregat indicar el posicionament dels restaurants amb l’objectiu de maximitzar els beneficis generats per aquests. Per ubicar aquests restaurants, es realitzarà un estudi de la popularitat de les atraccions que hi ha a DLP a fi de determinar les zones més visitades i d’aquesta manera, fer la distribució dels restaurants més cars en aquestes zones per maximitzar els beneficis del parc.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.70\textwidth]{imatges/mapa_disney_land_paris.jpg}\par\vspace{1cm}
+    \caption{Mapa de Disney Land Paris}
+    \label{fig:disney1}
+\end{figure}
 
 \clearpage
 \section{Objectiu}
-L'objectiu del projecte és posar el mínim de càmeres possibles per cobrir les regions on es troba la majoria de gent. Necessitem que unes determinades regions estiguin cobertes sempre per una o més càmeres. Les regions es determinaran a partir del d'un anàlisis de trajectòries (movement patterns) de les dades obtingudes amb el MyMagic + "sistema de gestió de vacances".
+L'objectiu del projecte és \textbf{fer la distribució dels restaurants més cars donades unes determinades zones per maximitzar els beneficis del parc}. Aquestes zones són zones candidates, on es poden posar restaurants, del mapa d'atraccions del territori gironí.
+
+Per dur a terme aquest objectiu considerem que el mapa d'atraccions del nou territori és el mateix que el de DLP i que les “\textit{Magic Bands}” (\ref{fig:magic_bands}) recullen i emmagatzemen la informació de la posició dels seus usuaris cada 5 minuts. 
+
+Per determinar el grau d'interès de cada atracció, comptem amb una gran quantitat de dades generades per les “\textit{Magic Bands}” (\ref{fig:magic_bands}) que es reparteixen a l’entrada del parc temàtic, i que tenen per objectiu l’estudi del comportament del públic. 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.75\textwidth]{imatges/magic_bands.jpg}\par\vspace{1cm}
+    \caption{Magic Bands}
+    \label{fig:magic_bands}
+\end{figure}
 
 \clearpage
-\section{Formalització}
-Bla bla bla
-\subsection{Glossari}
-Bla bla bla
-\subsection{Definició del problema}
-El problema que volem resoldre és un problema de cobertura 
+%\section{Formalització}
+%Bla bla bla
+%\subsection{Glossari}
+%Bla bla bla
+\section{Definició del problema}
+Per realitzar l'objectiu del nostre projecte, es distribuirà el procés de realitzar distribució dels restaurants més cars donades unes determinades zones per maximitzar els beneficis del parc en 5 passos.
+\renewcommand\labelitemii{$\square$}
+\begin{enumerate}
+  \item Donarem un pes a cada atracció
+	\begin{itemize}
+     \item El pes d’una atracció el definirem a parir de la quantitat de gent que ha pujat a una atracció. A la figura \ref{fig:magic_bands}, podem veure el mapa de les atracions amb els pesos de cada atracció.
+		
+			\begin{figure}[h!]
+				\centering
+				\includegraphics[width=0.5\textwidth]{imatges/mapa_areas.png}\par\vspace{1cm}
+				\caption{Pesos de cada atracció}
+				\label{fig:mapa_areas}
+			\end{figure}
+
+		\item Una vegada tenim els pesos de totes les atraccions, realitzarem un diagrama de Voronoi, tenint en compte que els pivots estan situats sobre les entrades de les atraccions i el pes del pivot és el pes de l’atracció (nombre de visitants en un període de temps).
+		
+Això és fa perquè volem tenir el mapa repartit en àrees, on cada àrea representa la regió d’influència de l’atracció.
+
+		
+		
+	\end{itemize}
+\end{enumerate}
 
 
-\subsection{Pre-processament de dades}
-Bla bla bla
-\subsection{Algoritme}
+
+%\subsection{Pre-processament de dades}
+%Bla bla bla
+%\subsection{Algoritme}
 
 \clearpage
 \section{Articles}
 
-\clearpage
-\section{Treball futur}
+%\clearpage
+%\section{Treball futur}
 
-\clearpage
-\section{Conclusions}
+%\clearpage
+%\section{Conclusions}
 
 \clearpage
 \section{Bibliografia}
