@@ -1,3 +1,8 @@
-\babel@toc {catalan}{}
-\contentsline {section}{\numberline {1}Secci\IeC {\'o} 1}{3}
-\contentsline {section}{\numberline {2}Secci\IeC {\'o} 2}{4}
+\select@language {catalan}
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}}{3}
+\contentsline {section}{\numberline {2}Objectiu}{4}
+\contentsline {section}{\numberline {3}Definici\IeC {\'o} del problema}{5}
+\contentsline {subsection}{\numberline {3.1}Donarem un pes a cada atracci\IeC {\'o}}{5}
+\contentsline {subsection}{\numberline {3.2}Repartir el mapa en \IeC {\`a}rees}{5}
+\contentsline {section}{\numberline {4}Articles}{7}
+\contentsline {section}{\numberline {5}Bibliografia}{8}
