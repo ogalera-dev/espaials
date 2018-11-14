@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.22)  13 NOV 2018 18:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.22)  13 NOV 2018 21:00
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -851,26 +851,26 @@ LaTeX Warning: Label `fig:mapa_areas' multiply defined.
 )
 \openout1 = `memoria.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 37.
  ("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Info: Redefining \l on input line 38.
-LaTeX Info: Redefining \L on input line 38.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Info: Redefining \l on input line 37.
+LaTeX Info: Redefining \L on input line 37.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: wrapfig package is loaded.
@@ -914,13 +914,13 @@ G,.JBIG2,.JB2,.eps]
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 38.
+loading the todonotes package. on input line 37.
 
 \c@lstlisting=\count150
 <imatges/logo3.png, id=4, 609.27625pt x 418.56375pt>
 File: imatges/logo3.png Graphic file (type png)
 <use imatges/logo3.png>
-Package pdftex.def Info: imatges/logo3.png  used on input line 41.
+Package pdftex.def Info: imatges/logo3.png  used on input line 40.
 (pdftex.def)             Requested size: 241.84842pt x 166.14517pt.
 [1
 
@@ -947,7 +947,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 File: imatges/mapa_disney_land_paris.jpg Graphic file (type jpg)
 <use imatges/mapa_disney_land_paris.jpg>
 Package pdftex.def Info: imatges/mapa_disney_land_paris.jpg  used on input line
- 71.
+ 70.
 (pdftex.def)             Requested size: 338.5863pt x 231.0461pt.
  [3
 
@@ -955,7 +955,7 @@ Package pdftex.def Info: imatges/mapa_disney_land_paris.jpg  used on input line
 <imatges/magic_bands.jpg, id=27, 903.375pt x 542.025pt>
 File: imatges/magic_bands.jpg Graphic file (type jpg)
 <use imatges/magic_bands.jpg>
-Package pdftex.def Info: imatges/magic_bands.jpg  used on input line 86.
+Package pdftex.def Info: imatges/magic_bands.jpg  used on input line 85.
 (pdftex.def)             Requested size: 362.77263pt x 217.66629pt.
  [4
 
@@ -963,7 +963,7 @@ Package pdftex.def Info: imatges/magic_bands.jpg  used on input line 86.
 <imatges/mapa_areas.png, id=31, 1431.84938pt x 1081.79156pt>
 File: imatges/mapa_areas.png Graphic file (type png)
 <use imatges/mapa_areas.png>
-Package pdftex.def Info: imatges/mapa_areas.png  used on input line 112.
+Package pdftex.def Info: imatges/mapa_areas.png  used on input line 110.
 (pdftex.def)             Requested size: 241.84842pt x 182.71364pt.
  [5
 
@@ -974,20 +974,20 @@ PNG might cause out of memory (use non-interlaced PNG to fix this)
 >]
 File: imatges/mapa_areas.png Graphic file (type png)
 <use imatges/mapa_areas.png>
-Package pdftex.def Info: imatges/mapa_areas.png  used on input line 127.
+Package pdftex.def Info: imatges/mapa_areas.png  used on input line 125.
 (pdftex.def)             Requested size: 241.84842pt x 182.71364pt.
 <imatges/diagrama_voronoi_ordre_1.png, id=36, 1431.84938pt x 1081.79156pt>
 File: imatges/diagrama_voronoi_ordre_1.png Graphic file (type png)
 <use imatges/diagrama_voronoi_ordre_1.png>
 Package pdftex.def Info: imatges/diagrama_voronoi_ordre_1.png  used on input li
-ne 139.
+ne 137.
 (pdftex.def)             Requested size: 241.84842pt x 182.71364pt.
  [6]
 <imatges/diagrama_voronoi_ordre_2.png, id=41, 1431.84938pt x 1081.79156pt>
 File: imatges/diagrama_voronoi_ordre_2.png Graphic file (type png)
 <use imatges/diagrama_voronoi_ordre_2.png>
 Package pdftex.def Info: imatges/diagrama_voronoi_ordre_2.png  used on input li
-ne 153.
+ne 151.
 (pdftex.def)             Requested size: 241.84842pt x 182.71364pt.
 
 
@@ -996,7 +996,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <imatges/zones_candidates.png, id=42, 1431.84938pt x 1081.79156pt>
 File: imatges/zones_candidates.png Graphic file (type png)
 <use imatges/zones_candidates.png>
-Package pdftex.def Info: imatges/zones_candidates.png  used on input line 163.
+Package pdftex.def Info: imatges/zones_candidates.png  used on input line 161.
 (pdftex.def)             Requested size: 241.84842pt x 182.71364pt.
 [7 <./imatges/diagrama_voronoi_ordre_1.png
 
@@ -1005,15 +1005,15 @@ ge interlaced PNG might cause out of memory (use non-interlaced PNG to fix this
 )
 >]
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 <imatges/mapa_restaurants.png, id=47, 1431.84938pt x 1081.79156pt>
 File: imatges/mapa_restaurants.png Graphic file (type png)
 <use imatges/mapa_restaurants.png>
-Package pdftex.def Info: imatges/mapa_restaurants.png  used on input line 178.
+Package pdftex.def Info: imatges/mapa_restaurants.png  used on input line 176.
 (pdftex.def)             Requested size: 241.84842pt x 182.71364pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 [8 <./imatges/diagrama_voronoi_ordre_2.png
 
@@ -1024,13 +1024,13 @@ ge interlaced PNG might cause out of memory (use non-interlaced PNG to fix this
 
 pdfTeX warning: pdflatex.exe (file ./imatges/zones_candidates.png): large inter
 laced PNG might cause out of memory (use non-interlaced PNG to fix this)
-> <./imatges/mapa_restaurants.png
+>] [10 <./imatges/mapa_restaurants.png
 
 pdfTeX warning: pdflatex.exe (file ./imatges/mapa_restaurants.png): large inter
 laced PNG might cause out of memory (use non-interlaced PNG to fix this)
->] [10
+>] [11
 
-] [11
+] [12
 
 ] (memoria.aux)
 
@@ -1038,24 +1038,25 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 17506 strings out of 492970
- 337164 string characters out of 3126149
+ 17510 strings out of 492970
+ 337233 string characters out of 3126149
  397238 words of memory out of 3000000
- 21032 multiletter control sequences out of 15000+200000
- 9796 words of font info for 34 fonts, out of 3000000 for 9000
+ 21035 multiletter control sequences out of 15000+200000
+ 10133 words of font info for 35 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,6n,77p,625b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Meriem/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb><C:/Users/Meriem/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmcsc10.pfb><C:/Users/Meriem/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Meriem/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Meriem/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Use
-rs/Meriem/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti
-12.pfb>
-Output written on memoria.pdf (12 pages, 22507576 bytes).
+ <C:\Users\Meriem\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
+\tcrm1200.pk><C:/Users/Meriem/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmbx12.pfb><C:/Users/Meriem/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Meriem/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Meriem/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/
+Meriem/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><C:/Users/Meriem/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmti12.pfb>
+Output written on memoria.pdf (13 pages, 22510104 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
+ 92 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

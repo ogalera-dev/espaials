@@ -19,7 +19,6 @@
 \usepackage{listingsutf8}
 \usepackage{dirtytalk}
 
-
 \setlength{\parindent}{0cm} \setlength{\oddsidemargin}{-0.5cm} \setlength{\evensidemargin}{-0.5cm}
 \setlength{\textwidth}{17cm} \setlength{\textheight}{23cm} \setlength{\topmargin}{-1cm} \addtolength{\parskip}{2ex}
 
@@ -95,7 +94,6 @@ Per determinar el grau d'interès de cada atracció, comptem amb una gran quanti
 %Bla bla bla
 \section{Definició del problema}
 Per realitzar l'objectiu del nostre projecte, es distribuirà el procés de realitzar distribució dels restaurants més cars donades unes determinades zones per maximitzar els beneficis del parc en 5 passos:
-\renewcommand\labelitemii{$\square$}
 \begin{enumerate}
 	\item Donarem un pes a cada atracció
 	\item Repartir el mapa en àrees
@@ -158,7 +156,7 @@ Llavors la importància d'una atraccio (i) la definim com el sumatori dels punts
 \subsection{Definir les zones candidates}
 A partir del diagrama de voronoi anterior, que corresponont a la figura \ref{fig:diagrama_voronoi_ordre_1}, definim els punts on poden anar els restaurants (zones candidates) com es pot observar a la figura \ref{fig:zones_candidates}.
 
-\begin{figure}[h!]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=0.5\textwidth]{imatges/zones_candidates.png}\par\vspace{1cm}
 	\caption{Mapa amb les zones candidates}.
@@ -173,7 +171,7 @@ Una vegada generada totes les combinacions, ens quederem amb el benefici més gr
 
 Podem visualitzar un exemple d'una solució a la figura \ref{fig:mapa_restaurants}.
 
-\begin{figure}[h!]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=0.5\textwidth]{imatges/mapa_restaurants.png}\par\vspace{1cm}
 	\caption{Mapa d'atraccions amb les ubicacions dels restaurants}.
@@ -181,8 +179,24 @@ Podem visualitzar un exemple d'una solució a la figura \ref{fig:mapa_restaurant
 \end{figure}
 
 
-%\subsection{Pre-processament de dades}
+\section{Pre-processament de dades}
 %Bla bla bla
+Pel caràcter del problema i per evitar errors, realitzarem un preprocessament amb els punts recollits, de tal manera que, només considerarem els punts que:
+\begin{itemize}
+	\item S’han recollit dins d’un conjunt de franges horàries que considerarem de interés pels visitants alhora de buscar un restaurant per anar a menjar. 
+	Així doncs, el llistat de franges horàries per les dades a considerar és:
+	\begin{itemize}
+		\item Esmorzar: 9h-10h
+		\item Dinar: 12h-14h
+		\item Berenar: 17h-18h
+		\item Sopar: 20h-22h
+	\end{itemize}
+
+	\item No s’hagin recollit a les zones on es troben obstacles. 
+	Considerem obstacles a les atraccions, boscos, llacs….
+\end{itemize}
+
+
 %\subsection{Algoritme}
 
 \clearpage
