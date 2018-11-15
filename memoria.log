@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.22)  13 NOV 2018 21:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.22)  15 NOV 2018 16:56
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -844,11 +844,7 @@ Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
 ("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdfesc
 ape.sty"
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-))) (memoria.aux
-
-LaTeX Warning: Label `fig:mapa_areas' multiply defined.
-
-)
+))) (memoria.aux)
 \openout1 = `memoria.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
@@ -865,7 +861,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 37.
- ("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+
+("C:\Users\Meriem\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 37.
@@ -948,79 +945,77 @@ File: imatges/mapa_disney_land_paris.jpg Graphic file (type jpg)
 <use imatges/mapa_disney_land_paris.jpg>
 Package pdftex.def Info: imatges/mapa_disney_land_paris.jpg  used on input line
  70.
-(pdftex.def)             Requested size: 338.5863pt x 231.0461pt.
- [3
+(pdftex.def)             Requested size: 435.32419pt x 297.06114pt.
 
- <./imatges/mapa_disney_land_paris.jpg>]
-<imatges/magic_bands.jpg, id=27, 903.375pt x 542.025pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3
+
+] [4 <./imatges/mapa_disney_land_paris.jpg>]
+<imatges/magic_bands.jpg, id=30, 903.375pt x 542.025pt>
 File: imatges/magic_bands.jpg Graphic file (type jpg)
 <use imatges/magic_bands.jpg>
 Package pdftex.def Info: imatges/magic_bands.jpg  used on input line 85.
 (pdftex.def)             Requested size: 362.77263pt x 217.66629pt.
- [4
+ [5
 
  <./imatges/magic_bands.jpg>]
-<imatges/mapa_areas.png, id=31, 1431.84938pt x 1081.79156pt>
+<imatges/mapa_areas.png, id=34, 1431.84938pt x 1081.79156pt>
 File: imatges/mapa_areas.png Graphic file (type png)
 <use imatges/mapa_areas.png>
 Package pdftex.def Info: imatges/mapa_areas.png  used on input line 110.
 (pdftex.def)             Requested size: 241.84842pt x 182.71364pt.
- [5
+
+[6
 
  <./imatges/mapa_areas.png
 
 pdfTeX warning: pdflatex.exe (file ./imatges/mapa_areas.png): large interlaced 
 PNG might cause out of memory (use non-interlaced PNG to fix this)
 >]
-File: imatges/mapa_areas.png Graphic file (type png)
-<use imatges/mapa_areas.png>
-Package pdftex.def Info: imatges/mapa_areas.png  used on input line 125.
-(pdftex.def)             Requested size: 241.84842pt x 182.71364pt.
-<imatges/diagrama_voronoi_ordre_1.png, id=36, 1431.84938pt x 1081.79156pt>
+<imatges/diagrama_voronoi_ordre_1.png, id=40, 1431.84938pt x 1081.79156pt>
 File: imatges/diagrama_voronoi_ordre_1.png Graphic file (type png)
 <use imatges/diagrama_voronoi_ordre_1.png>
 Package pdftex.def Info: imatges/diagrama_voronoi_ordre_1.png  used on input li
-ne 137.
+ne 122.
 (pdftex.def)             Requested size: 241.84842pt x 182.71364pt.
- [6]
-<imatges/diagrama_voronoi_ordre_2.png, id=41, 1431.84938pt x 1081.79156pt>
-File: imatges/diagrama_voronoi_ordre_2.png Graphic file (type png)
-<use imatges/diagrama_voronoi_ordre_2.png>
-Package pdftex.def Info: imatges/diagrama_voronoi_ordre_2.png  used on input li
-ne 151.
-(pdftex.def)             Requested size: 241.84842pt x 182.71364pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<imatges/zones_candidates.png, id=42, 1431.84938pt x 1081.79156pt>
-File: imatges/zones_candidates.png Graphic file (type png)
-<use imatges/zones_candidates.png>
-Package pdftex.def Info: imatges/zones_candidates.png  used on input line 161.
-(pdftex.def)             Requested size: 241.84842pt x 182.71364pt.
-[7 <./imatges/diagrama_voronoi_ordre_1.png
+ [7 <./imatges/diagrama_voronoi_ordre_1.png
 
 pdfTeX warning: pdflatex.exe (file ./imatges/diagrama_voronoi_ordre_1.png): lar
 ge interlaced PNG might cause out of memory (use non-interlaced PNG to fix this
 )
 >]
+<imatges/diagrama_voronoi_ordre_2.png, id=45, 1431.84938pt x 1081.79156pt>
+File: imatges/diagrama_voronoi_ordre_2.png Graphic file (type png)
+<use imatges/diagrama_voronoi_ordre_2.png>
+Package pdftex.def Info: imatges/diagrama_voronoi_ordre_2.png  used on input li
+ne 136.
+(pdftex.def)             Requested size: 241.84842pt x 182.71364pt.
+<imatges/zones_candidates.png, id=46, 1431.84938pt x 1081.79156pt>
+File: imatges/zones_candidates.png Graphic file (type png)
+<use imatges/zones_candidates.png>
+Package pdftex.def Info: imatges/zones_candidates.png  used on input line 146.
+(pdftex.def)             Requested size: 241.84842pt x 182.71364pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 <imatges/mapa_restaurants.png, id=47, 1431.84938pt x 1081.79156pt>
 File: imatges/mapa_restaurants.png Graphic file (type png)
 <use imatges/mapa_restaurants.png>
-Package pdftex.def Info: imatges/mapa_restaurants.png  used on input line 176.
+Package pdftex.def Info: imatges/mapa_restaurants.png  used on input line 161.
 (pdftex.def)             Requested size: 241.84842pt x 182.71364pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [8 <./imatges/diagrama_voronoi_ordre_2.png
 
 pdfTeX warning: pdflatex.exe (file ./imatges/diagrama_voronoi_ordre_2.png): lar
 ge interlaced PNG might cause out of memory (use non-interlaced PNG to fix this
 )
->] [9 <./imatges/zones_candidates.png
+>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9 <./imatges/zones_candidates.png
 
 pdfTeX warning: pdflatex.exe (file ./imatges/zones_candidates.png): large inter
 laced PNG might cause out of memory (use non-interlaced PNG to fix this)
@@ -1034,13 +1029,13 @@ laced PNG might cause out of memory (use non-interlaced PNG to fix this)
 
 ] (memoria.aux)
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
  17510 strings out of 492970
  337233 string characters out of 3126149
- 397238 words of memory out of 3000000
+ 397199 words of memory out of 3000000
  21035 multiletter control sequences out of 15000+200000
  10133 words of font info for 35 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1054,7 +1049,7 @@ a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/
 Meriem/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb><C:/Users/Meriem/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmti12.pfb>
-Output written on memoria.pdf (13 pages, 22510104 bytes).
+Output written on memoria.pdf (13 pages, 22509742 bytes).
 PDF statistics:
  92 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
