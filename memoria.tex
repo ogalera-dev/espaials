@@ -19,6 +19,7 @@
 \usepackage{listingsutf8}
 \usepackage{dirtytalk}
 \usepackage{float}
+\usepackage{url}
 
 \setlength{\parindent}{0cm} \setlength{\oddsidemargin}{-0.5cm} \setlength{\evensidemargin}{-0.5cm}
 \setlength{\textwidth}{17cm} \setlength{\textheight}{23cm} \setlength{\topmargin}{-1cm} \addtolength{\parskip}{2ex}
@@ -59,7 +60,7 @@
 
 \section{Introducció}
 
-Els dissenyadors de \textit{Disney} han descobert com mantenir el seu univers feliç el més petit possible: mitjançant l'ús de polseres \textit{Magic Bands} per fer un seguiment de les identitats, els moviments i l'estat financer dels usuaris.
+Els dissenyadors de \textit{Disney Land París} han descobert com mantenir el seu univers feliç el més petit possible: mitjançant l'ús de polseres \textit{Magic Bands} per fer un seguiment de les identitats, els moviments i l'estat financer dels usuaris.
 
 El \textit{MyMagic +} \say{sistema de gestió de vacances} pot fer un seguiment dels convidats a mesura que es mouen per \textit{Disney Land París} i analitzar els seus hàbits de compra.
 
@@ -100,7 +101,7 @@ Així doncs, per aconseguir l'objectiu que hem plantejat es seguiran 5 passos, q
 \end{enumerate}
 
 \subsection{Assignar un pes a cada atracció}
-El pes d'una atracció es definirà a parir de la quantitat de gent que ha pujat a aquesta (aquesta informació es proporcionada per la direcció del parc). En la següent figura es pot veure el mapa amb el pes per a cada una de les atraccions.
+El pes d'una atracció es definirà a parir de la quantitat de gent que ha pujat a aquesta (aquesta informació es proporcionada per la direcció del parc). En la següent figura (\ref{fig:mapa_areas}) es pot veure el mapa amb el pes per a cada una de les atraccions.
 
 \begin{figure}[H]
 	\centering
@@ -115,48 +116,49 @@ A partir del pes de cada atracció (ubicat en l'entrada d'aquesta), es poden seg
 \subsubsection{Estratègies}
 Algunes d'aquestes estratègies són:
 \begin{itemize}
-	\item Utilitzar un diagrama de \textit{voronoi} per definir la regió d'interès de cada atracció (cada persona dins d'aquesta àrea computa 1).
+	\item Utilitzar un diagrama de \textit{Voronoi} per definir la regió d'interès de cada atracció (cada persona dins d'aquesta àrea computa 1).
 	\item Utilitzar l'estratègia del punt anterior, i per cada atracció, per cada una de les àreeas no definides pel pivot, computar les persones que hi ha com $\frac{1}{1+d}$ on $d$ correspon a la distància en metres des de la persona a l'entrada de l'atracció.
 	\item Utilitzar la estratègia del punt anterior, però aquesta vegada comptant la distància ($d$) des de la persona al segment que defineix l'àrea regida pel pivot.
-	\item Utilitzar diagrames de \textit{voronoi} de diferents nivells ($k$ on $2 \le k \le n$ i $n$ és el nombre d'atraccions), el diagrama de primer nivell defineix la regió de màxim interés de l'atracció (computant 1 per cada persona) i les $k-1$ \textbf{capes superposades} dels següents nivells, determinen zones d'interès però no tan importants (computen $\frac{1}{k}$ per cada persona).
+	\item Utilitzar diagrames de \textit{Voronoi} de diferents nivells ($k$ on $2 \le k \le n$ i $n$ és el nombre d'atraccions), el diagrama de primer nivell defineix la regió de màxim interés de l'atracció (computant 1 per cada persona) i les $k-1$ \textbf{capes superposades} dels següents nivells, determinen zones d'interès però no tan importants (computen $\frac{1}{k}$ per cada persona).
 \end{itemize}
 
-\subsubsection{Diagrama de \textit{voronoi} de primer nivell}
+\subsubsection{Diagrama de \textit{Voronoi} de primer nivell}
 Segons l'estratègia que es seguis, s'obtindria una distribució en àrees o un altre. En aquest cas s'ha obtat per utilitzar l'última proposta amb una $k = 2$, ja que es creu que és una bona aproximació pel problema que es vol resoldre. 
 
-Abans però, cal fer la ubicació de ploígons que representin aquelles zones que un usuari no pot travessar en la seva ruta fins arribar a l'entrada de l'atracció, això evitarà obtenir dades poc realistes. En la següent figura es pot veure una possible representació del diagrama de \textit{voronoi} d'ordre 1.
-
-
-\textbf{Falta posar els poligons que regeixen les zones prohibides, rius, llacs, les propies atraccions...}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\textwidth]{imatges/diagrama_voronoi_ordre_1.png}\par\vspace{1cm}
-	\caption{Diagrama de \textit{voronoi} d'ordre 1}.
-	\label{fig:diagrama_voronoi_ordre_1}
-\end{figure}
-
-\subsubsection{Capa de \textit{voronoi} de segon nivell}
-Per afinar més els càlculs, es vol calcular la capa superposada de \textit{voronoi} de segon nivell, i a partir d'aquesta obtenir una aproximació de la influència de les persones que estan pròximes a l'àrea definida en el primer nivell.
-
-
-En la següent figura es pot veure el diagrama de \textit{voronoi} de segon nivell, el qual superposant-lo amb el diagrama de \textit{voronoi} de primer nivell, s'obtindria la capa de superposició que es vol.
+Abans però, cal fer la ubicació de ploígons que representin aquelles zones que un usuari no pot travessar en la seva ruta fins arribar a l'entrada de l'atracció, això evitarà obtenir dades poc realistes. En la següent figura (\ref{fig:diagrama_voronoi_ordre_1}) es pot veure una possible representació del diagrama de \textit{Voronoi} d'ordre 1.
 
 \textbf{Falta posar els poligons que regeixen les zones prohibides, rius, llacs, les propies atraccions...}
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{imatges/diagrama_voronoi_ordre_1.png}\par\vspace{1cm}
-	\caption{Diagrama de \textit{voronoi} d'ordre 2}.
+	\caption{Diagrama de \textit{Voronoi} d'ordre 1}.
 	\label{fig:diagrama_voronoi_ordre_1}
 \end{figure}
+
+\subsubsection{Capa de \textit{Voronoi} de segon nivell}
+Per afinar més els càlculs, es vol calcular la capa superposada de \textit{Voronoi} de segon nivell, i a partir d'aquesta obtenir una aproximació de la influència de les persones que estan pròximes a l'àrea definida en el primer nivell.
+
+
+%En la següent figura (\ref{fig:diagrama_voronoi_ordre_1}) es pot veure el diagrama de \textit{Voronoi} de segon nivell, el qual superposant-lo amb el diagrama de \textit{Voronoi} de primer nivell, s'obtindria la capa de superposició que es vol.
+
+Superposant el diagrama de \textit{Voronoi} de segon nivell amb el diagrama de \textit{Voronoi} de primer nivell, s'obtindria la capa de superposició que es vol.
+
+%\textbf{Falta posar els poligons que regeixen les zones prohibides, rius, llacs, les propies atraccions...}
+
+%\begin{figure}[H]
+	%\centering
+	%\includegraphics[width=1\textwidth]{imatges/diagrama_voronoi_ordre_2.png}\par\vspace{1cm}
+	%\caption{Diagrama de \textit{Voronoi} d'ordre 2}.
+	%\label{fig:diagrama_voronoi_ordre_2}
+%\end{figure}
 
 \subsection{Definir les zones candidates}
-Un cop es disposa de la regió d'influència de cada atracció (veure Secció \ref{arees}). Es vol fer el posicionament dels restaurants, però abans cal que la direcció del parc proporcioni un mapa tot indicant quines són les possibles ubicacions per aquests restaurants. En la següent figura es mostren un possible mapa.
+Un cop es disposa de la regió d'influència de cada atracció (veure Secció \ref{arees}). Es vol fer el posicionament dels restaurants, però abans cal que la direcció del parc proporcioni un mapa tot indicant quines són les possibles ubicacions per aquests restaurants. En la següent figura (\ref{fig:zones_candidates}) es mostren un possible mapa.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\textwidth]{imatges/possibles_ubicacions.png}\par\vspace{1cm}
+	\includegraphics[width=0.9\textwidth]{imatges/possibles_ubicacions.png}\par\vspace{1cm}
 	\caption{Mapa amb les possibles ubicacions}.
 	\label{fig:zones_candidates}
 \end{figure}
@@ -166,7 +168,7 @@ En aquest punt, la direcció ha de proporcionar una llista amb els restaurants q
 
 Una vegada es tenen els restaurants a ubicar i les zones candidates, cal calcular el benefici de cada configuració a partir del benefici de cada restaurant i la influència que rep en base a les atraccions que té al voltant.  
 
-Una vegada generada totes les combinacions, s'elegirà la que maximitzi el benefici global del parc. En la següent figura es mostra un exemple d'una possible solució.
+Una vegada generada totes les combinacions, s'elegirà la que maximitzi el benefici global del parc. En la següent figura (\ref{fig:mapa_restaurants}) es mostra un exemple d'una possible solució.
 
 \begin{figure}[H]
 	\centering
@@ -195,9 +197,6 @@ Pel caràcter del problema i per evitar errors, es realitzarà un preprocessamen
 
 %\subsection{Algoritme}
 
-\clearpage
-\section{Articles}
-
 %\clearpage
 %\section{Treball futur}
 
@@ -206,14 +205,12 @@ Pel caràcter del problema i per evitar errors, es realitzarà un preprocessamen
 
 \clearpage
 \begin{thebibliography}{9}
-\bibitem{cert1}
-Beneficis certificacions IT, 1.
-\\\\\path{https://certification.comptia.org/es/por-qué-certificarse/profesionales}
-\bibitem{cert2}
-Beneficis certificacions IT, 2.
-\\\\\path{https://certification.comptia.org/es/por-qu\%C3\%A9-certificarse}
-\bibitem{cert3}
-Beneficis certificacions IT, 3.
-\\\\\path{https://www.microsoft.com/en-us/learning/certification-testimonials.aspx}
+\bibitem{cert1} \textsc{Gizmodo.com.}, \textit{How I Let Disney Track My Every Move}, 2017. \textcolor{blue}{\url{https://gizmodo.com/how-i-let-disney-track-my-every-move-1792875386}}	
+\bibitem{cert2} \textsc{Okabe, A.}; \textsc{Boots, B.}; \textsc{Sugihara, K.}, \textit{Spatial tessellations. Concepts and Aplicattións of Voronoi Diagrams 2ºe.d}. \textcolor{blue}{\url{http://www.gbv.de/dms/ilmenau/toc/119618044.PDF}}
+\bibitem{cert3} \textsc{Abellanas, B.}; \textsc{Abellanas, M.}; \textsc{Vilas, C.}, \textit{Modelización de bosques mediante diagramas de Voronoi}, 2018. \textcolor{blue}{\url{https://www.infor.uva.es/egc07/articulos/28.pdf}}
+\bibitem{cert4} \textsc{Moya Carrasco, Á.}, \textit{Generación de trayectorias en tiempo real a partir de diagramas de Voronoi}, 2016. \textcolor{blue}{\url{https://idus.us.es/xmlui/bitstream/handle/11441/44404/TFG_Angel_Moya_Carrasco.pdf?sequence=1&isAllowed=y}}
+\bibitem{cert5} \textsc{Trinchet Almaguer, D}; \textsc{Pérez Rosés, H.}, \textit{Algoritmo para solucionar el problema inverso generalizado de Voronoi}, 2007. \textcolor{blue}{\url{http://www.redalyc.org/pdf/3783/378343634005.pdf}}
+\bibitem{cert6} \textsc{García, O.}, \textit{The state-space approach in growth modelling}, 1994. \textcolor{blue}{\url{https://www.researchgate.net/publication/237870252_The_state-space_approach_in_growth_modelling}}
+\bibitem{cert7} \textsc{ABC.}, \textit{El diagrama de Voronoi, la forma matemática de dividir el mundo}, 2017. \textcolor{blue}{\url{https://www.abc.es/ciencia/abci-diagrama-voronoi-forma-matematica-dividir-mundo-201704241101_noticia.html}}
 \end{thebibliography}
 \end{document}
