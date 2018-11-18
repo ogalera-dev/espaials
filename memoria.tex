@@ -59,122 +59,128 @@
 
 \section{Introducció}
 
-Els imaginadors de Disney han descobert com mantenir el seu univers feliç el més petit possible: mitjançant l'ús de polseres \textit{Magic Bands} per fer un seguiment de les identitats, els moviments i l'estat financer dels usuaris.
+Els dissenyadors de \textit{Disney} han descobert com mantenir el seu univers feliç el més petit possible: mitjançant l'ús de polseres \textit{Magic Bands} per fer un seguiment de les identitats, els moviments i l'estat financer dels usuaris.
 
-El MyMagic + "sistema de gestió de vacances" pot fer un seguiment dels convidats a mesura que es mouen per \textit{Disney Land París} i analitzar els seus hàbits de compra.
+El \textit{MyMagic +} \say{sistema de gestió de vacances} pot fer un seguiment dels convidats a mesura que es mouen per \textit{Disney Land París} i analitzar els seus hàbits de compra.
 
-Degut a l'èxit generat de \textit{Disney Land París}, el propietari de Disney Land Paris ha decidit obrir un nou parc temàtic similar a \textit{Disney Land París} (\ref{fig:disney1}) en el territori Gironí. Ens han encarregat indicar el posicionament dels restaurants amb l'objectiu de maximitzar els beneficis generats per aquests. Per ubicar aquests restaurants, es realitzarà un estudi de la popularitat de les atraccions que hi ha a \textit{DLP} a fi de determinar les zones més visitades i d'aquesta manera, fer la distribució dels restaurants més cars en aquestes zones per maximitzar els beneficis del parc.
+Degut a l'èxit generat per \textit{Disney Land París}, el propietari d'aquest ha decidit obrir un nou parc temàtic similar (\ref{fig:disney1}) però aquest cop en el territori Gironí. Ens han encarregat indicar el posicionament dels restaurants amb l'objectiu de maximitzar els beneficis generats per aquests. Per ubicar aquests restaurants, es realitzarà un estudi de la popularitat de les atraccions que hi ha a \textit{DLP} a fi de determinar les zones més visitades, i d'aquesta manera, fer la distribució dels restaurants més cars en aquestes zones per maximitzar els beneficis del parc.
 
 %Posicionament de la imatge
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.85\textwidth]{imatges/mapa_disney_land_paris.jpg}\par\vspace{1cm}
+    \includegraphics[width=0.75\textwidth]{imatges/mapa_disney_land_paris.jpg}\par\vspace{1cm}
     \caption{Mapa de \textit{Disney Land París}}
     \label{fig:disney1}
 \end{figure}
 
 \clearpage
 \section{Objectiu}
-L'objectiu del projecte és \textbf{fer la distribució dels restaurants més cars donades unes determinades zones per maximitzar els beneficis del parc}. Aquestes zones són zones candidates, on es poden posar restaurants, del mapa d'atraccions del territori gironí.
+L'objectiu del projecte és \textbf{fer la distribució dels restaurants més cars a partir d'unes determinades zones \say{remarcades} per maximitzar els beneficis del parc}. Aquestes zones les anomenarem candidates, i seran aquelles on es podran ubicar els restaurants.
 
-Per dur a terme aquest objectiu considerem que el mapa d'atraccions del nou territori és el mateix que el de \textit{DLP}; que les \textit{Magic Bands} (\ref{fig:magic_bands}) recullen i emmagatzemen la informació de la posició dels seus usuaris cada 5 minuts, i que disposem de tantes zones candidates o més com restaurants volguem ubicar. 
+Per aconseguir aquest objectiu es considerarà que el mapa d'atraccions del nou territori és el mateix que el de \textit{DLP}; que les \textit{Magic Bands} (\ref{fig:magic_bands}) recullen i emmagatzemen la informació de la posició dels seus usuaris cada 5 minuts, i que disposem de tantes zones candidates (o més) com restaurants es vulguin ubicar. 
 
-Per determinar el grau d'interès de cada atracció, comptem amb una gran quantitat de dades generades per les \textit{Magic Bands} (\ref{fig:magic_bands}) que es reparteixen a l'entrada del parc temàtic, i que tenen per objectiu l'estudi del comportament del públic. 
+Per determinar el grau d'interès de cada atracció, es compta amb una gran quantitat de dades generades per les \textit{Magic Bands} (\ref{fig:magic_bands}) que es reparteixen a l'entrada del parc temàtic, i que tenen per objectiu l'estudi del comportament del públic. 
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\textwidth]{imatges/magic_bands.jpg}\par\vspace{1cm}
-    \caption{Magic Bands}
+    \caption{\textit{Magic Bands}}
     \label{fig:magic_bands}
 \end{figure}
 
 \clearpage
-%\section{Formalització}
-%Bla bla bla
-%\subsection{Glossari}
-%Bla bla bla
 \section{Definició del problema}
-Per realitzar l'objectiu del nostre projecte, es distribuirà el procés de realitzar distribució dels restaurants més cars donades unes determinades zones per maximitzar els beneficis del parc en 5 passos:
+Així doncs, per aconseguir l'objectiu que hem plantejat es seguiran 5 passos, que són:
 \begin{enumerate}
-	\item Donarem un pes a cada atracció
-	\item Repartir el mapa en àrees
-	\item Càlcul de la importància de cada atracció
-	\item Definir les zones candidates
-	\item Ubicar els restaurants
+	\item Assignar un pes a cada atracció.
+	\item Dividir el mapa en àrees.
+	\item Calcular la importància de cada atracció.
+	\item Definir les zones candidates.
+	\item Ubicar els restaurants.
 \end{enumerate}
 
 \subsection{Assignar un pes a cada atracció}
-El pes d'una atracció el definirem a parir de la quantitat de gent que ha pujat a una atracció. A la figura \ref{fig:mapa_areas}, podem veure el mapa de les atracions amb els pesos de cada atracció.
+El pes d'una atracció es definirà a parir de la quantitat de gent que ha pujat a aquesta (aquesta informació es proporcionada per la direcció del parc). En la següent figura es pot veure el mapa amb el pes per a cada una de les atraccions.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.55\textwidth]{imatges/mapa_restaurants.png}\par\vspace{1cm}
+	\includegraphics[width=0.6\textwidth]{imatges/pesos.png}\par\vspace{1cm}
 	\caption{Pesos de cada atracció}
 	\label{fig:mapa_areas}
 \end{figure}
 
-\subsection{Repartir el mapa en àrees}
-Una vegada tenim els pesos de totes les atraccions, realitzarem un diagrama de Voronoi (figura \ref{fig:diagrama_voronoi_ordre_1}), tenint en compte que els pivots estan situats sobre les entrades de les atraccions i el pes del pivot és el pes de l’atracció (nombre de visitants en un període de temps).
-		
-Això és fa perquè volem tenir el mapa repartit en àrees, on cada àrea representa la regió d’influència de l’atracció. 
+\subsection{Dividir el mapa en àrees \label{arees}}
+A partir del pes de cada atracció (ubicat en l'entrada d'aquesta), es poden seguir diferents estratègies per calcular la regio de influència per cada una de les atraccions a partir del nombre de gent del voltant.
+
+\subsubsection{Estratègies}
+Algunes d'aquestes estratègies són:
+\begin{itemize}
+	\item Utilitzar un diagrama de \textit{voronoi} per definir la regió d'interès de cada atracció (cada persona dins d'aquesta àrea computa 1).
+	\item Utilitzar l'estratègia del punt anterior, i per cada atracció, per cada una de les àreeas no definides pel pivot, computar les persones que hi ha com $\frac{1}{1+d}$ on $d$ correspon a la distància en metres des de la persona a l'entrada de l'atracció.
+	\item Utilitzar la estratègia del punt anterior, però aquesta vegada comptant la distància ($d$) des de la persona al segment que defineix l'àrea regida pel pivot.
+	\item Utilitzar diagrames de \textit{voronoi} de diferents nivells ($k$ on $2 \le k \le n$ i $n$ és el nombre d'atraccions), el diagrama de primer nivell defineix la regió de màxim interés de l'atracció (computant 1 per cada persona) i les $k-1$ \textbf{capes superposades} dels següents nivells, determinen zones d'interès però no tan importants (computen $\frac{1}{k}$ per cada persona).
+\end{itemize}
+
+\subsubsection{Diagrama de \textit{voronoi} de primer nivell}
+Segons l'estratègia que es seguis, s'obtindria una distribució en àrees o un altre. En aquest cas s'ha obtat per utilitzar l'última proposta amb una $k = 2$, ja que es creu que és una bona aproximació pel problema que es vol resoldre. 
+
+Abans però, cal fer la ubicació de ploígons que representin aquelles zones que un usuari no pot travessar en la seva ruta fins arribar a l'entrada de l'atracció, això evitarà obtenir dades poc realistes. En la següent figura es pot veure una possible representació del diagrama de \textit{voronoi} d'ordre 1.
+
+
+\textbf{Falta posar els poligons que regeixen les zones prohibides, rius, llacs, les propies atraccions...}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.55\textwidth]{imatges/diagrama_voronoi_ordre_1.png}\par\vspace{1cm}
-	\caption{Diagrama de Voronoi d'ordre 1}.
+	\includegraphics[width=1\textwidth]{imatges/diagrama_voronoi_ordre_1.png}\par\vspace{1cm}
+	\caption{Diagrama de \textit{voronoi} d'ordre 1}.
 	\label{fig:diagrama_voronoi_ordre_1}
 \end{figure}
 
-Aquí es considera que els pivots estan situades sobre les atraccions i el pes del pivot correspon al pes de l'atracció, que és el nombre de visitants en un període de temps
+\subsubsection{Capa de \textit{voronoi} de segon nivell}
+Per afinar més els càlculs, es vol calcular la capa superposada de \textit{voronoi} de segon nivell, i a partir d'aquesta obtenir una aproximació de la influència de les persones que estan pròximes a l'àrea definida en el primer nivell.
 
-\subsection{Càlcul de la importància de cada atracció}
-Una vegada tenim les àrees de les atraccions definides, calcularem la importància de l’atracció.
 
-Per calcular la importància de l'atracció (i), realitzarem un diagrama de Voronoid d'ordre $k$ ($2 \le k \le 3$) (figura \ref{fig:diagrama_voronoi_ordre_2}) tenint en compte que els pivots estan situats sobre les entrades de les atraccions i el pes del pivot és el pes de l’atracció. 
+En la següent figura es pot veure el diagrama de \textit{voronoi} de segon nivell, el qual superposant-lo amb el diagrama de \textit{voronoi} de primer nivell, s'obtindria la capa de superposició que es vol.
 
-Llavors la importància d'una atraccio (i) la definim com el sumatori dels punts que es troben a l'àrea definida per l’atracció (trobada amb el diagrama de Voronoi d'ordre 1) + els punts que estan situats només a la capa 2 i els dividirem per la distància al pivot de l'atracció.
+\textbf{Falta posar els poligons que regeixen les zones prohibides, rius, llacs, les propies atraccions...}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.55\textwidth]{imatges/diagrama_voronoi_ordre_2.png}\par\vspace{1cm}
-	\caption{Diagrama de Voronoi d'ordre $k$ amb $2 \le k \le 3$}.
-	\label{fig:diagrama_voronoi_ordre_2}
+	\includegraphics[width=1\textwidth]{imatges/diagrama_voronoi_ordre_1.png}\par\vspace{1cm}
+	\caption{Diagrama de \textit{voronoi} d'ordre 2}.
+	\label{fig:diagrama_voronoi_ordre_1}
 \end{figure}
 
-Aquí es considera que els pivots estan situades sobre les atraccions i el pes del pivot és el pes de l'atracció, nombre de visitants en un període de temps
-
 \subsection{Definir les zones candidates}
-A partir del diagrama de voronoi anterior, que corresponont a la figura \ref{fig:diagrama_voronoi_ordre_1}, definim els punts on poden anar els restaurants (zones candidates) com es pot observar a la figura \ref{fig:zones_candidates}.
+Un cop es disposa de la regió d'influència de cada atracció (veure Secció \ref{arees}). Es vol fer el posicionament dels restaurants, però abans cal que la direcció del parc proporcioni un mapa tot indicant quines són les possibles ubicacions per aquests restaurants. En la següent figura es mostren un possible mapa.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\textwidth]{imatges/zones_candidates.png}\par\vspace{1cm}
-	\caption{Mapa amb les zones candidates}.
+	\includegraphics[width=1\textwidth]{imatges/possibles_ubicacions.png}\par\vspace{1cm}
+	\caption{Mapa amb les possibles ubicacions}.
 	\label{fig:zones_candidates}
 \end{figure}
 
 \subsection{Ubicar els restaurants}
+En aquest punt, la direcció ha de proporcionar una llista amb els restaurants que es volen ubicar amb un valor associat, aquest valor ha de reflexar quant car és cada restaurant.
 
-Una vegada definida les zones candidates, realitzem totes les possibles combinacions dels restaurants en les zones candidates i calculem el benefici de cada restaurant donada la zona. 
+Una vegada es tenen els restaurants a ubicar i les zones candidates, cal calcular el benefici de cada configuració a partir del benefici de cada restaurant i la influència que rep en base a les atraccions que té al voltant.  
 
-Una vegada generada totes les combinacions, ens quederem amb el benefici més gran i ja sabem les ubicacions de tots els restaurants.
-
-Podem visualitzar un exemple d'una solució a la figura \ref{fig:mapa_restaurants}.
+Una vegada generada totes les combinacions, s'elegirà la que maximitzi el benefici global del parc. En la següent figura es mostra un exemple d'una possible solució.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\textwidth]{imatges/mapa_restaurants.png}\par\vspace{1cm}
+	\includegraphics[width=0.9\textwidth]{imatges/solucio.png}\par\vspace{1cm}
 	\caption{Mapa d'atraccions amb les ubicacions dels restaurants}.
 	\label{fig:mapa_restaurants}
 \end{figure}
 
 
 \section{Pre-processament de dades}
-%Bla bla bla
-Pel caràcter del problema i per evitar errors, realitzarem un preprocessament amb els punts recollits, de tal manera que, només considerarem els punts que:
+Pel caràcter del problema i per evitar errors, es realitzarà un preprocessament amb els punts recollits, de tal manera que, només es consideraran els punts que:
 \begin{itemize}
-	\item S’han recollit dins d’un conjunt de franges horàries que considerarem de interés pels visitants alhora de buscar un restaurant per anar a menjar. 
-	Així doncs, el llistat de franges horàries per les dades a considerar és:
+	\item S’han recollit dins d’un conjunt de franges horàries que es consideren d'interés pels visitants alhora de buscar un restaurant per anar a menjar. 
+	Així doncs, el llistat de franges horàries a considerar és:
 	\begin{itemize}
 		\item Esmorzar: 9h-10h
 		\item Dinar: 12h-14h

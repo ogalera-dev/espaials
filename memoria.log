@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  17 NOV 2018 22:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  18 NOV 2018 12:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1078,7 +1078,11 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box69
 \@float@everytoks=\toks35
 \@floatcapt=\box70
-) (./memoria.aux)
+) (./memoria.aux
+
+LaTeX Warning: Label `fig:diagrama_voronoi_ordre_1' multiply defined.
+
+)
 \openout1 = `memoria.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
@@ -1095,8 +1099,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 38.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 38.
@@ -1170,16 +1173,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [2
 
 ]
-<imatges/mapa_disney_land_paris.jpg, id=24, 1254.6875pt x 856.19875pt>
+<imatges/mapa_disney_land_paris.jpg, id=22, 1254.6875pt x 856.19875pt>
 File: imatges/mapa_disney_land_paris.jpg Graphic file (type jpg)
 <use imatges/mapa_disney_land_paris.jpg>
 Package pdftex.def Info: imatges/mapa_disney_land_paris.jpg  used on input line
  71.
-(pdftex.def)             Requested size: 411.14526pt x 280.56065pt.
+(pdftex.def)             Requested size: 362.77263pt x 247.55966pt.
  [3
 
  <./imatges/mapa_disney_land_paris.jpg>]
-<imatges/magic_bands.jpg, id=28, 903.375pt x 542.025pt>
+<imatges/magic_bands.jpg, id=26, 903.375pt x 542.025pt>
 File: imatges/magic_bands.jpg Graphic file (type jpg)
 <use imatges/magic_bands.jpg>
 Package pdftex.def Info: imatges/magic_bands.jpg  used on input line 86.
@@ -1187,94 +1190,102 @@ Package pdftex.def Info: imatges/magic_bands.jpg  used on input line 86.
  [4
 
  <./imatges/magic_bands.jpg>]
-<imatges/mapa_restaurants.png, id=32, 1909.1325pt x 1442.38875pt>
-File: imatges/mapa_restaurants.png Graphic file (type png)
-<use imatges/mapa_restaurants.png>
-Package pdftex.def Info: imatges/mapa_restaurants.png  used on input line 111.
-(pdftex.def)             Requested size: 266.03473pt x 200.98665pt.
+<imatges/pesos.png, id=30, 1431.84938pt x 1081.79156pt>
+File: imatges/pesos.png Graphic file (type png)
+<use imatges/pesos.png>
+Package pdftex.def Info: imatges/pesos.png  used on input line 107.
+(pdftex.def)             Requested size: 290.22105pt x 219.25967pt.
 
 [5
 
- <./imatges/mapa_restaurants.png>]
-<imatges/diagrama_voronoi_ordre_1.png, id=37, 1909.1325pt x 1442.38875pt>
+ <./imatges/pesos.png
+
+pdfTeX warning: pdflatex (file ./imatges/pesos.png): large interlaced PNG might
+ cause out of memory (use non-interlaced PNG to fix this)
+>] [6]
+<imatges/diagrama_voronoi_ordre_1.png, id=45, 1909.1325pt x 1442.38875pt>
 File: imatges/diagrama_voronoi_ordre_1.png Graphic file (type png)
 <use imatges/diagrama_voronoi_ordre_1.png>
 Package pdftex.def Info: imatges/diagrama_voronoi_ordre_1.png  used on input li
-ne 123.
-(pdftex.def)             Requested size: 266.03473pt x 200.98665pt.
- [6 <./imatges/diagrama_voronoi_ordre_1.png>]
-<imatges/diagrama_voronoi_ordre_2.png, id=43, 1431.84938pt x 1081.79156pt>
-File: imatges/diagrama_voronoi_ordre_2.png Graphic file (type png)
-<use imatges/diagrama_voronoi_ordre_2.png>
-Package pdftex.def Info: imatges/diagrama_voronoi_ordre_2.png  used on input li
-ne 139.
-(pdftex.def)             Requested size: 266.03473pt x 200.98666pt.
-<imatges/zones_candidates.png, id=44, 1431.84938pt x 1081.79156pt>
-File: imatges/zones_candidates.png Graphic file (type png)
-<use imatges/zones_candidates.png>
-Package pdftex.def Info: imatges/zones_candidates.png  used on input line 151.
-(pdftex.def)             Requested size: 241.84842pt x 182.71364pt.
- [7 <./imatges/diagrama_voronoi_ordre_2.png
+ne 134.
+(pdftex.def)             Requested size: 483.69684pt x 365.4383pt.
+ [7 <./imatges/diagrama_voronoi_ordre_1.png>]
+File: imatges/diagrama_voronoi_ordre_1.png Graphic file (type png)
+<use imatges/diagrama_voronoi_ordre_1.png>
+Package pdftex.def Info: imatges/diagrama_voronoi_ordre_1.png  used on input li
+ne 149.
+(pdftex.def)             Requested size: 483.69684pt x 365.4383pt.
+ [8]
+<imatges/possibles_ubicacions.png, id=53, 1431.84938pt x 1081.79156pt>
+File: imatges/possibles_ubicacions.png Graphic file (type png)
+<use imatges/possibles_ubicacions.png>
+Package pdftex.def Info: imatges/possibles_ubicacions.png  used on input line 1
+59.
+(pdftex.def)             Requested size: 483.69684pt x 365.42729pt.
+ [9 <./imatges/possibles_ubicacions.png
 
-pdfTeX warning: pdflatex (file ./imatges/diagrama_voronoi_ordre_2.png): large i
-nterlaced PNG might cause out of memory (use non-interlaced PNG to fix this)
+pdfTeX warning: pdflatex (file ./imatges/possibles_ubicacions.png): large inter
+laced PNG might cause out of memory (use non-interlaced PNG to fix this)
 >]
-File: imatges/mapa_restaurants.png Graphic file (type png)
-<use imatges/mapa_restaurants.png>
-Package pdftex.def Info: imatges/mapa_restaurants.png  used on input line 166.
-(pdftex.def)             Requested size: 241.84842pt x 182.71915pt.
- [8 <./imatges/zones_candidates.png
+<imatges/solucio.png, id=58, 1431.84938pt x 1081.79156pt>
+File: imatges/solucio.png Graphic file (type png)
+<use imatges/solucio.png>
+Package pdftex.def Info: imatges/solucio.png  used on input line 173.
+(pdftex.def)             Requested size: 435.32419pt x 328.88126pt.
+ [10 <./imatges/solucio.png
 
-pdfTeX warning: pdflatex (file ./imatges/zones_candidates.png): large interlace
-d PNG might cause out of memory (use non-interlaced PNG to fix this)
->] [9] [10
+pdfTeX warning: pdflatex (file ./imatges/solucio.png): large interlaced PNG mig
+ht cause out of memory (use non-interlaced PNG to fix this)
+>] [11] [12
 
 ]
 Missing character: There is no Ã in font cmtt12!
 Missing character: There is no © in font cmtt12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--206
+Underfull \hbox (badness 10000) in paragraph at lines 211--213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--209
+Underfull \hbox (badness 10000) in paragraph at lines 214--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--212
+Underfull \hbox (badness 10000) in paragraph at lines 217--219
 
  []
 
-[11
+[13
 
 ] (./memoria.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 17832 strings out of 492982
- 333721 string characters out of 6134895
- 392426 words of memory out of 5000000
- 21035 multiletter control sequences out of 15000+600000
- 10302 words of font info for 36 fonts, out of 8000000 for 9000
+ 17827 strings out of 492982
+ 333509 string characters out of 6134895
+ 393468 words of memory out of 5000000
+ 21029 multiletter control sequences out of 15000+600000
+ 10661 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,6n,77p,653b,357s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,6n,77p,630b,357s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmtt12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-
-Output written on memoria.pdf (12 pages, 13733242 bytes).
+mf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
+12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on memoria.pdf (14 pages, 13369012 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 111 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 

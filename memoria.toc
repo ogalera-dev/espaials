@@ -3,9 +3,11 @@
 \contentsline {section}{\numberline {2}Objectiu}{4}
 \contentsline {section}{\numberline {3}Definici\IeC {\'o} del problema}{5}
 \contentsline {subsection}{\numberline {3.1}Assignar un pes a cada atracci\IeC {\'o}}{5}
-\contentsline {subsection}{\numberline {3.2}Repartir el mapa en \IeC {\`a}rees}{6}
-\contentsline {subsection}{\numberline {3.3}C\IeC {\`a}lcul de la import\IeC {\`a}ncia de cada atracci\IeC {\'o}}{6}
-\contentsline {subsection}{\numberline {3.4}Definir les zones candidates}{7}
-\contentsline {subsection}{\numberline {3.5}Ubicar els restaurants}{8}
-\contentsline {section}{\numberline {4}Pre-processament de dades}{9}
-\contentsline {section}{\numberline {5}Articles}{10}
+\contentsline {subsection}{\numberline {3.2}Dividir el mapa en \IeC {\`a}rees }{6}
+\contentsline {subsubsection}{\numberline {3.2.1}Estrat\IeC {\`e}gies}{6}
+\contentsline {subsubsection}{\numberline {3.2.2}Diagrama de \textit {voronoi} de primer nivell}{6}
+\contentsline {subsubsection}{\numberline {3.2.3}Capa de \textit {voronoi} de segon nivell}{7}
+\contentsline {subsection}{\numberline {3.3}Definir les zones candidates}{9}
+\contentsline {subsection}{\numberline {3.4}Ubicar els restaurants}{10}
+\contentsline {section}{\numberline {4}Pre-processament de dades}{11}
+\contentsline {section}{\numberline {5}Articles}{12}
