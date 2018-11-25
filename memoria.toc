@@ -5,8 +5,8 @@
 \contentsline {subsection}{\numberline {3.1}Assignar un pes a cada atracci\IeC {\'o}}{5}
 \contentsline {subsection}{\numberline {3.2}Dividir el mapa en \IeC {\`a}rees }{6}
 \contentsline {subsubsection}{\numberline {3.2.1}Estrat\IeC {\`e}gies}{6}
-\contentsline {subsubsection}{\numberline {3.2.2}Diagrama de \textit {Voronoi} de primer nivell}{6}
-\contentsline {subsubsection}{\numberline {3.2.3}Capa de \textit {Voronoi} de segon nivell}{7}
-\contentsline {subsection}{\numberline {3.3}Definir les zones candidates}{8}
-\contentsline {subsection}{\numberline {3.4}Ubicar els restaurants}{9}
-\contentsline {section}{\numberline {4}Pre-processament de dades}{10}
+\contentsline {subsubsection}{\numberline {3.2.2}Diagrama de \textit {Voronoi} de primer nivell}{7}
+\contentsline {subsubsection}{\numberline {3.2.3}Capa de \textit {Voronoi} de primer nivell capa 2}{8}
+\contentsline {subsection}{\numberline {3.3}Definir les zones candidates}{9}
+\contentsline {subsection}{\numberline {3.4}Ubicar els restaurants}{10}
+\contentsline {section}{\numberline {4}Pre-processament de dades}{11}
