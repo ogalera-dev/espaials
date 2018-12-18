@@ -64,7 +64,7 @@ Els dissenyadors de \textit{Disney Land París} han descobert com mantenir el se
 
 El \textit{MyMagic +} \say{sistema de gestió de vacances} pot fer un seguiment dels convidats a mesura que es mouen per \textit{Disney Land París} i analitzar els seus hàbits de compra.
 
-Degut a l'èxit generat per \textit{Disney Land París}, el propietari d'aquest ha decidit obrir un nou parc temàtic similar (\ref{fig:disney1}) però aquest cop en el territori Gironí. Ens han encarregat indicar el posicionament dels restaurants amb l'objectiu de maximitzar els beneficis generats per aquests. Per ubicar aquests restaurants, es realitzarà un estudi de la popularitat de les atraccions que hi ha a \textit{DLP} a fi de determinar les zones més visitades, i d'aquesta manera, fer la distribució dels restaurants més cars en aquestes zones per maximitzar els beneficis del parc.
+Degut a l'èxit generat per \textit{Disney Land París} (a partir d'ara \textit{DPL}), el propietari d'aquest ha decidit obrir un nou parc temàtic similar (\ref{fig:disney1}) però aquest cop en el territori Gironí. Ens han encarregat indicar el posicionament dels restaurants amb l'objectiu de maximitzar els beneficis generats per aquests. Per ubicar aquests restaurants, es realitzarà un estudi de la popularitat de les atraccions que hi ha a \textit{DLP} a fi de determinar les zones més visitades, i d'aquesta manera, fer la distribució dels restaurants més cars en aquestes zones per maximitzar els beneficis del parc.
 
 %Posicionament de la imatge
 \begin{figure}[H]
@@ -80,7 +80,7 @@ L'objectiu del projecte és \textbf{fer la distribució dels restaurants més ca
 
 Per aconseguir aquest objectiu es considerarà que el mapa d'atraccions del nou territori és el mateix que el de \textit{DLP}; que les \textit{Magic Bands} (\ref{fig:magic_bands}) recullen i emmagatzemen la informació de la posició dels seus usuaris cada 5 minuts, i que disposem de tantes zones candidates (o més) com restaurants es vulguin ubicar. 
 
-Per determinar el grau d'interès de cada atracció, es compta amb una gran quantitat de dades generades per les \textit{Magic Bands} (\ref{fig:magic_bands}) que es reparteixen a l'entrada del parc temàtic, i que tenen per objectiu l'estudi del comportament del públic. 
+Per determinar el grau d'interès de cada atracció, es compta amb una gran quantitat de dades generades per les \textit{Magic Bands} (\ref{fig:magic_bands}) que es reparteixen a l'entrada del parc temàtic, i que tenen per objectiu la recollida de dades per l'estudi del comportament del públic. 
 
 \begin{figure}[H]
     \centering
@@ -91,39 +91,54 @@ Per determinar el grau d'interès de cada atracció, es compta amb una gran quan
 
 \clearpage
 \section{Definició del problema}
-Així doncs, per aconseguir l'objectiu que hem plantejat es seguiran 5 passos, que són:
+Així doncs, per aconseguir l'objectiu que s'ha plantejat es seguiran 6 passos, que són:
 \begin{enumerate}
+	\item Preprocessament de dades (veure \textbf{secció \ref{pd}}).
+	\item Filtrat de dades.
 	\item Assignar un pes a cada atracció.
 	\item Dividir el mapa en àrees.
 	\item Calcular la importància de cada atracció.
 	\item Definir les zones candidates.
 	\item Ubicar els restaurants.
 \end{enumerate}
-Per poder-ho aconseguir, definirem les restriccions:
+
+S'assumeixen les seguents entrades
 \begin{itemize}
-\item No hi hauran areas corbades, tot han  de ser arestes rectes, és a dir, poligons.
-\item Elements que ens proporcionen:
-	\begin{itemize}
-	\item Punts i arestes del mapa: 
-		\begin{itemize}
-		\item Punts i arestes del propi mapa (latitud, longitud)
-		\item Pivots (punts de les entrades de les atraccions) + la quantitat de gent que ha pujat a l'atracció corresponent
-		\end{itemize}
-	\item Un fitxer per cada zona prohibida (obstacles) amb punts i arestes
-	\item Un fitxer amb els punts de les persones amb format: (latitud, longitud) (horari)
-	\end{itemize}
+	\item Un fitxer amb els punts\footnote{Els punts es defineixen per la latitud i la longitud.} que defineixen els límits del mapa, juntament amb els punts on hi ha situades les entrades de les atraccions i la quantitat de gent que hi ha pujat.
+	\item Un fitxer amb les zona prohibida\footnote{Per zona prohibida s'enten l'àrea que cobreixen les atraccions, així com els obstacles típics que es poden trobar en un parc d'atraccions.} definides pels seus punts i arestes (s'assumeix que les àreas estan definides per poligons).
+	\item Un fitxer amb els punts que representen les persones i la hora en què s'han recollit.
 \end{itemize}
 
+\subsection{Filtrat de dades}
+En aquest apartat es volen filtrar els punts de les persones situades en àrees prohibides. Per això, es crearà una estructura \textit{PM QuadTree} a partir dels poligons que regeixen els obstacles i que s'usarà per eliminar tots aquells punts que es trobin a dins.
+
+Per construir el PM Quadtree s'utilitzarà el següent algoritme:
+
+FALTA ALGORITME PM QUADTREE
+
+Un exemple de l'aplicació d'aquesta estructura es pot veure en la següent imatge \ref{fig:poligon_pm_quadtree}:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{imatges/pm_quadtree.png}\par\vspace{1cm}
+	\caption{Poligon emmagatzemat en un PM Quadtree}
+	\label{fig:poligon_pm_quadtree}
+\end{figure}
+
+FALTA EXPLICACIÓ EXEMPLE AMB L'ALGORISME
+
+Un cop es té creada l'estructura, s'avalua cada un dels punts per veure en quina regió està, si aquesta regió conté part d'un obstacle s'haurà de comprobar si el punt està o no dins d'aquest. 
+
 \subsection{Assignar un pes a cada atracció}
-El pes d'una atracció es definirà a partir de la quantitat de gent que ha pujat a aquesta (aquesta informació es proporcionada per la direcció del parc). Per cada pivot, li assignem un pes, $p_{i}$:
+El pes d'una atracció es definirà a partir de la quantitat de gent que ha pujat a aquesta. Per cada pivot, s'assigna un pes $p_{i}$ tal que:
  
-\[p_{i} = \frac{q_{i}}{t}\]
+$$p_{i} = \frac{q_{i}}{t}$$
 
 on:
-$q_{i}$ és la quantitat de gent que ha pujat a l'atracció $i$
-$t$ és el total de gent
-
-\[t = \sum_{i=1}^{pivots}q_{i}\]
+\begin{itemize}
+	\item $q_{i}$ és la quantitat de gent que ha pujat a l'atracció $i$.
+	\item $t$ és el total de gent.
+\end{itemize}
 
 En la següent figura (\ref{fig:mapa_areas}) es pot veure el mapa amb el pes per a cada una de les atraccions.
 
@@ -154,7 +169,7 @@ Abans però, cal fer la ubicació de polígons que representin aquelles zones qu
 En la següent figura (\ref{fig:diagrama_voronoi_ordre_1}) es pot veure una possible representació del diagrama de \textit{Voronoi} d'ordre 1.
 
 \textbf{Falta posar els poligons que regeixen les zones prohibides, rius, llacs, les propies atraccions...}
-
+1
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{imatges/diagrama_voronoi_ordre_1.png}\par\vspace{1cm}
@@ -206,7 +221,7 @@ Una vegada generada totes les combinacions, s'elegirà la que maximitzi el benef
 \end{figure}
 
 
-\section{Pre-processament de dades}
+\section{Pre-processament de dades\label{pd}}
 Pel caràcter del problema i per evitar errors, es realitzarà un preprocessament amb els punts recollits, de tal manera que, només es consideraran els punts que:
 \begin{itemize}
 	\item S’han recollit dins d’un conjunt de franges horàries que es consideren d'interés pels visitants alhora de buscar un restaurant per anar a menjar. 
@@ -232,7 +247,7 @@ Per realitzar-ho, seguirem els següents passos:
 		\item Filtrar els punts per l'horari. Només es quedaran els punts de les hores que ens interessen
 		\item Convertir els punts filtrats en (x,y)
 	\end{itemize}
-	\item Filtrar els punts de les persone que es trobin dintre d'un obstacle (només es quedaran els punts que no es trobin dintre d'un obstacle) a partir del mètode XXXXX (mètode de l'estructura de dades). Serialitzarem les dades a disc.
+	\item Filtrar els punts de les persones que es trobin dintre d'un obstacle (només es quedaran els punts que no es trobin dintre d'un obstacle) a partir del mètode XXXXX (mètode de l'estructura de dades). Serialitzarem les dades a disc.
 \end{itemize}
 
 %\subsection{Algoritme}
