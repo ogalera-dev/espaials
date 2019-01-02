@@ -3,11 +3,13 @@
 \contentsline {section}{\numberline {2}Objectiu}{4}
 \contentsline {section}{\numberline {3}Definici\IeC {\'o} del problema}{5}
 \contentsline {subsection}{\numberline {3.1}Filtrat de dades}{5}
-\contentsline {subsection}{\numberline {3.2}Assignar un pes a cada atracci\IeC {\'o}}{6}
-\contentsline {subsection}{\numberline {3.3}Dividir el mapa en \IeC {\`a}rees }{7}
+\contentsline {subsection}{\numberline {3.2}Assignar un pes a cada atracci\IeC {\'o}}{7}
+\contentsline {subsection}{\numberline {3.3}Dividir el mapa en \IeC {\`a}rees }{8}
 \contentsline {subsubsection}{\numberline {3.3.1}Estrat\IeC {\`e}gies}{8}
-\contentsline {subsubsection}{\numberline {3.3.2}Diagrama de \textit {Voronoi} de primer nivell}{8}
-\contentsline {subsubsection}{\numberline {3.3.3}Capa de \textit {Voronoi} de primer nivell capa 2}{9}
-\contentsline {subsection}{\numberline {3.4}Definir les zones candidates}{10}
-\contentsline {subsection}{\numberline {3.5}Ubicar els restaurants}{11}
-\contentsline {section}{\numberline {4}Pre-processament de dades}{12}
+\contentsline {subsubsection}{\numberline {3.3.2}Diagrama de \textit {Voronoi} de primer nivell}{10}
+\contentsline {subsubsection}{\numberline {3.3.3}Capa de \textit {Voronoi} de primer nivell capa 2}{11}
+\contentsline {subsection}{\numberline {3.4}Definir les zones candidates}{12}
+\contentsline {subsection}{\numberline {3.5}Ubicar els restaurants}{12}
+\contentsline {section}{\numberline {4}Pre-processament de dades}{14}
+\contentsline {section}{\numberline {5}Treball futur}{15}
+\contentsline {section}{\numberline {6}Conclusions}{16}
