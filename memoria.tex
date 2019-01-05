@@ -20,7 +20,6 @@
 \usepackage{dirtytalk}
 \usepackage{float}
 \usepackage{url}
-
 \setlength{\parindent}{0cm} \setlength{\oddsidemargin}{-0.5cm} \setlength{\evensidemargin}{-0.5cm}
 \setlength{\textwidth}{17cm} \setlength{\textheight}{23cm} \setlength{\topmargin}{-1cm} \addtolength{\parskip}{2ex}
 
@@ -112,24 +111,54 @@ S'assumeixen les següents entrades:
 \subsection{Filtrat de dades}
 En aquest apartat es volen filtrar els punts de les persones situades en àrees prohibides. Per això, es crearà una estructura \textit{PM QuadTree} a partir dels poligons que regeixen els obstacles i que s'usarà per eliminar tots aquells punts que es trobin a dins.
 
-Per construir el PM Quadtree s'utilitzarà el següent algoritme:
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\textwidth]{imatges/pm_quadtree.png}\par\vspace{1cm}
+	\caption{PM Quadtree}
+	\label{fig:pm_quadtree}
+\end{figure}
 
-EXPLICACIÓ DE L'ALGORTME PM QUADTREE (MERIEM)
+Un PM QuadTree (\textit{Figura \ref{fig:pm_quadtree}}) és una estructura de dades molt utilitzada en informàtica gràfica i es basa en una descomposició jeràrquica dels objectes de l’espai que descriuen. Un PM QuadTree es crea a partir d’una caixa englobant de forma quadrada que conté tots els poligons (coordenades) que s’estan descrivint. Es divideix aquest espai que hi ha en quatre quadrats iguals (quadrants) generant quatre fills que, juntament amb el pare, formen un arbre 4‐àri. Tot seguit es reparteixen tots els poligons en el fill corresponent depenent de la seva posició. Aquest procés es va repetint fins que cada node concret conté tan sols un poligon.
 
-Un exemple de l'aplicació d'aquesta estructura es pot veure en la següent \textit{Figura \ref{fig:poligon_pm_quadtree}}:
+L’ordre que s’estableix per a assignar quin número té cada fill s’estableix segons l’ordre de Morton (veure \textit{Figura \ref{fig:quadtree_ordre_de_morton}}), que dóna prioritat al fill superior‐esquerre.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\textwidth]{imatges/pm_quadtree.png}\par\vspace{1cm}
-	\caption{Poligon emmagatzemat en un PM Quadtree}
-	\label{fig:poligon_pm_quadtree}
+	\includegraphics[width=0.8\textwidth]{imatges/quadtree_ordre_de_morton.png}\par\vspace{1cm}
+	\caption{QuadTree: Ordre de Morton}
+	\label{fig:quadtree_ordre_de_morton}
 \end{figure}
 
-FALTA EXPLICACIÓ DE L'EXEMPLE AMB L'ALGORISME (MERIEM)
+A la \textit{Figura \ref{fig:exemple_pm_quadtree}} podem veure un exemple molt senzill d’un QuadTree amb 5 poligons juntament amb el seu arbre generat.
 
-Un cop es té creada l'estructura, s'avaluarà cada un dels punts per veure en quina regió està. Si aquesta regió conté part d'un obstacle s'haurà de comprobar si el punt està o no dins d'aquest. Si el punt no es troba dins d'un obstacle, es considerarà una dada vàlida i es posicionarà a sobre d'una grid, de manera que, a la grid tindrem posicionades totes les dades vàlides.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{imatges/exemple_pm_quadtree.png}\par\vspace{1cm}
+	\caption{Exemple PM QuadTree}
+	\label{fig:exemple_pm_quadtree}
+\end{figure}
 
-IMATGE GRID AMB ELS PUNTS (MERIEM)
+%EXPLICACIÓ DE L'ALGORTME PM QUADTREE (MERIEM)
+
+%Un exemple de l'aplicació d'aquesta estructura es pot veure en la següent \textit{Figura \ref{fig:poligon_pm_quadtree}}:
+
+%\begin{figure}[H]
+	%\centering
+	%\includegraphics[width=0.5\textwidth]{imatges/pm_quadtree_exemple.png}\par\vspace{1cm}
+	%\caption{Poligon emmagatzemat en un PM Quadtree}
+	%\label{fig:poligon_pm_quadtree}
+%\end{figure}
+
+%FALTA EXPLICACIÓ DE L'EXEMPLE AMB L'ALGORISME (MERIEM)
+
+Un cop es té creada l'estructura, s'avaluarà cada un dels punts per veure en quina regió està. Si aquesta regió conté part d'un obstacle s'haurà de comprobar si el punt està o no dins d'aquest. Si el punt no es troba dins d'un obstacle, es considerarà una dada vàlida i es posicionarà a sobre d'una grid, de manera que, a la grid tindrem posicionades totes les dades vàlides. Podem veure a la següent \textit{Figura \ref{fig:grid_amb_punts}} un exemple de com seria la grid.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{imatges/grid_amb_punts.png}\par\vspace{1cm}
+	\caption{Grid amb Punts}
+	\label{fig:grid_amb_punts}
+\end{figure}
 
 \subsection{Assignar un pes a cada atracció}
 El pes d'una atracció es definirà a partir de la quantitat de gent que ha pujat a aquesta. Per cada pivot, s'assigna un pes $p_{i}$ tal que:
@@ -198,9 +227,7 @@ Un cop entès el concepte (veure Annex ) del que és un diagrama de \textit{Voro
 
 A partir de la funció distància de cada punt es poden obtenir diferents diagrames de \textit{Voronoi}: el més proper i el segon més proper. 
 
-Per trobar els diferents diagrames de \textit{Voronoi}, cal definir de quina manera es calcularan les distàncies entre dos punts. Per calcular la distància entre un punt i un pivot s'utilitarà l'\textbf{alogirtme A*} per cada punt de la grid, de manera que el primer pivot que troba es considera el punt generador més proper i el segon punt que troba es considera el segon punt generador més proper.
-
-ANNEX 2. ALGORITME A* (MERIEM) (PSEUDOCODI) 
+Per trobar els diferents diagrames de \textit{Voronoi}, cal definir de quina manera es calcularan les distàncies entre dos punts. Per calcular la distància entre un punt i un pivot s'utilitarà l'\textbf{alogirtme A*} (veure Annex 2) per cada punt de la grid, de manera que el primer pivot que troba es considera el punt generador més proper i el segon punt que troba es considera el segon punt generador més proper.
 
 Desde cada punt situat a la grid es trobarà el primer i segon pivot més proper tenint en compte que a la grid hi han camins habilitats i no habilitats (els camins no habilitats corresponen als camins on es troba un obstacle). Per això, abans d'aplicar A*, aplicarem l'\textbf{algoritme Dijkstra} sobre la grid començant des d'un pivot per eliminar tots els camins que no estan habilitats, és a dir, que hi hagin obstacles.
 
@@ -208,11 +235,9 @@ Desde cada punt situat a la grid es trobarà el primer i segon pivot més proper
 
 En la següent \textit{Figura \ref{fig:diagrama_voronoi_ordre_1}} es pot veure una possible representació del diagrama de \textit{Voronoi} d'ordre 1.
 
-\textbf{Falta posar els poligons que regeixen les zones prohibides, rius, llacs, les propies atraccions...} (MERIEM)
-1
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\textwidth]{imatges/diagrama_voronoi_ordre_1.png}\par\vspace{1cm}
+	\includegraphics[width=0.8\textwidth]{imatges/diagrama_voronoi_ordre_1.png}\par\vspace{1cm}
 	\caption{Diagrama de \textit{Voronoi} d'ordre 1}.
 	\label{fig:diagrama_voronoi_ordre_1}
 \end{figure}
@@ -250,11 +275,36 @@ En aquest punt, la direcció ha de proporcionar una llista amb els restaurants q
 
 Una vegada es tenen els restaurants a ubicar i les zones candidates, cal calcular el benefici de cada configuració a partir del benefici de cada restaurant i la influència que rep en base a les atraccions que té al voltant.  
 
-PER CALCULAR EL BENEFICI DE CADA CANDIDAT:
-- DEFINIM L'ÀREA CIRCULAR QUE COBREIX UN RESTAURANT
-- CALCULEM L'ÀREA PONDERADA A PARTIR DEL PES DELS PIVOTS DELS DIAGRAMES DE VORONOI SUPERPOSATS DE CAPA 1 I CAPA 2
+Per calcular el benefici de cada candidat:
+\begin{itemize}
+	\item Es defineix l'area circular que cobreix un restaurant
+	\item Es calcula l'àrea ponderada del pes dels pivots dels diagrames de Voronoi superposats de capa 1 i capa 2
+\end{itemize}
 
-EXPLICACIÓ D'UN EXEMPLE DE CALCUL DEL BENEFICI (MERIEM)
+A continuació es podrà veure un exemple de com seria aquest calcul. Se suposa que hi ha un restaurant situat en el diagrama de Voronoi resultat de superposar les capes 1 i 2 com es veu a la \textit{Figura \ref{fig:benefici_restaurant}}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\textwidth]{imatges/benefici_restaurant.png}\par\vspace{1cm}
+	\caption{Restaurant en el diagrama de Voronoi superposat de la capa 1 i 2}.
+	\label{fig:benefici_restaurant}
+\end{figure}
+
+$$B_{x} = A_{1}*P{1} + A_{2}*P_{2} + A_{3}*P_{3} + A_{4}*P_{4}$$
+
+on:
+
+\begin{itemize}
+	\item $B_{x}$ és el benefici del restaurant $x$
+	\item $A_{1}$ és l'àrea de color verd que cobreix el restaurant
+	\item $P_{1}$ és el pes de l'area de color verd 
+	\item $A_{2}$ és l'àrea de color blau cel que cobreix el restaurant
+	\item $P_{2}$ és el pes de l'area de color blau cel 
+	\item $A_{3}$ és l'àrea de color aguamarina que cobreix el restaurant
+	\item $P_{3}$ és el pes de l'area de color aguamarina 
+	\item $A_{4}$ és l'àrea de color rosa que cobreix el restaurant
+	\item $P_{4}$ és el pes de l'area de color rosa 
+\end{itemize}
 
 Una vegada generada totes les combinacions, s'elegirà la que maximitzi el benefici global del parc. En la següent \textit{Figura \ref{fig:mapa_restaurants}} es mostra un exemple d'una possible solució.
 
@@ -306,12 +356,58 @@ Per realitzar-ho, seguirem els següents passos:
 - CLUSTERING DE RUTES
 
 \clearpage
-\section{Resum del projecte}
+\section{Conclusions}
 
-L'objectiu principal d'aquest projecte és \textbf{fer la distribució dels restaurants amb l'objectiu de ubicar aquells que són més cars en les zones més freqüentades, per això, es parteix de la informació d'un parc d'atracció similar en el qual s'han recollit les dades dels visitants del parc a través de les \textit{Magic Bands}. L'objectiu d'aquest projecte ha estat complert satisfactòriament. 
+L'objectiu principal d'aquest projecte és \textbf{fer la distribució dels restaurants amb l'objectiu de ubicar aquells que són més cars en les zones més freqüentades}, per això, es parteix de la informació d'un parc d'atracció similar en el qual s'han recollit les dades dels visitants del parc a través de les \textit{Magic Bands}. L'objectiu d'aquest projecte ha estat complert satisfactòriament. 
 
-ACABAR CONCLUSIONS
+Aquest objectiu, com s’ha pogut comprovar, ha estat complert de forma satisfactòria. Tot el conjunt de requeriments definits des d’un principi han estat assolits al final.
 
+Amb el desenvolupament d’aquest treball hem pogut veure la complexitat dels problemes de dades espaials. El que en principi semblen problemes simples tenen solucions bastant complicades de trobar.
+
+Finalment creiem que la solució donada compleix els requeriments inicials i dona resposta al problema plantejat, però ens hagués agradat aprofundir una mica més tècnicament en l’algoritme.
+
+\clearpage
+\section{Annexes}
+\subsection{Algoritme A*}
+La primera operació a realitzar, és dividir l'espai en caselles. En el nostre exemple les caselles són quadrades, però realment podrem adaptar l'algoritme de dividir l'espai de la forma que desitgem (triangles, hexàgons, etc.). A partir d'ara cada casella serà una cel·la espacial (crearem una estructura de dades que la representi) relacionada amb els seus adjacents i amb el seu "pare"; el pare serà la cel·la per la qual hem arribat a tenir en compte a l'actual com a possible candidata a formar part del camí final.
+
+Aspectes a tenir en consideració:
+
+\begin{enumerate}
+	\item Tenir dues llistes de cel·les: una \textbf{oberta} i una \textbf{tancada}. A la llista \textbf{oberta} anirem introduint cel·les que hem d'avaluar, per veure si són bones candidates a formar part del camí final. A la llista \textbf{tancada} introduirem les cel·les ja avaluades.
+
+	\item L'\textbf{avaluació de les cel·les} es fa en base a dos factors: la longitud del camí més curt per arribar des del punt d'origen a la cel·la actual, i l'estimació del camí més curt que podria quedar per arribar a la destinació. L'estimació per a la destinació es fa usant una funció \textbf{heurística}, en concret se sol usar la \textbf{Distància Manhattan}, que essencialment consisteix a explicar totes les cel·les ens separen de la destinació vertical i horitzontalment, sense moviments diagonals; com si estiguéssim recorrent pomes en una gran ciutat i no poguéssim travessar-les, només vorejar; d'aquí ve el nom.
+\end{enumerate}
+
+L'algoritme té diferents passos:
+
+\begin{enumerate}
+	\item Afegim la cel origen a la llista oberta.
+	\item Agafem el primer element de la llista oberta i el traiem i el inserim en la llista tancada.
+	\item Agafem les cel·les adjacents a la cel·la extreta.
+	\item Per a cada cel·la adjacent:
+	\begin{itemize}
+		\item Si la cel·la és la cel destí, hem acabat. Recorrem inversament la cadena de pares fins a arribar a l'origen per obtenir el camí.
+		\item Si la cel·la representa un mur o terreny infranquejable; la ignorem.
+		\item Si la cel ja és a la llista tancada, la ignorem.
+		\item Si la cel ja és a la llista oberta, comprovem si la seva nova G (ho veurem més endavant) és millor que l'actual, i en aquest cas recalculem factors (ho veurem més endavant) i posem com a pare de la cel·la a la cel·la extreta. En cas que no sigui millor, la ignorem.
+		\item Per a la resta de cel·les adjacents, els establim com a pare la cel extreta i recalculem factors. Després les afegim a la llista oberta.
+	\end{itemize}
+	\item Ordenem la llista oberta. La llista oberta és una llista ordenada de forma ascendent en funció del factor F de les cel·les.
+	\item Tornar al pas 1.
+\end{enumerate}
+
+Factors a tenir en consideració:
+
+Cada cel·la té 3 factors. G, H i F.
+
+\begin{itemize}
+	\item \textbf{G:} És el cost d'anar des de la cel·la origen a la cel actual. Cada vegada que ens moguem un pas en horitzontal o vertical, afegirem 10 punts de cost. Cada vegada que ens moguem en diagonal, afegirem 14. Per què 14? Perquè encara que geomètricament la proporció exacta hauria de ser 14.14213 $sqrt (10 * 10 + 10 * 10)$, 14 és una bona aproximació sencera que ens farà guanyar velocitat en evitar l'ús de coma flotant.
+
+	\item \textbf{H:} És la distància mínima i optimista, sense usar diagonals, que resta fins a la destinació. L'heurística basada en Distància Manhattan de la qual hem parlat abans.
+
+	\item \textbf{F:} És la suma de \textbf{G} i \textbf{H}.
+\end{itemize}
 \clearpage
 \begin{thebibliography}{9}
 \bibitem{cert1} \textsc{Gizmodo.com.}, \textit{How I Let Disney Track My Every Move}, 2017. \textcolor{blue}{\url{https://gizmodo.com/how-i-let-disney-track-my-every-move-1792875386}}	
@@ -323,3 +419,5 @@ ACABAR CONCLUSIONS
 \bibitem{cert7} \textsc{ABC.}, \textit{El diagrama de \textit{Voronoi}, la forma matemática de dividir el mundo}, 2017. \textcolor{blue}{\url{https://www.abc.es/ciencia/abci-diagrama-voronoi-forma-matematica-dividir-mundo-201704241101_noticia.html}}
 \end{thebibliography}
 \end{document}
+
+
