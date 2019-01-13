@@ -324,17 +324,19 @@ Per realitzar-ho, seguirem els següents passos:
 	\end{itemize}
 \end{itemize}
 
-\textbf{Nota:} Quan es parla de convertir els punts, es fa referència a aplicar l'algorisme XXXXX (veure annex \ref{ann:lat_lon}) per tal de transformar un punt referenciat per (latitud, longitud) en un punt (X, Y).
+\textbf{Nota:} Quan es parla de convertir els punts, es fa referència a aplicar l'algorisme de conversió de latitud,longitud a X,Y (veure annex \ref{ann:lat_lon}) per tal de transformar un punt referenciat per (latitud, longitud) en un punt (X, Y).
 
 \clearpage
 \section{Treball futur}
-- Programació en paral·lel:
-	El calcul de distancies
-	Calcul dels diagrames de Voronoi (explicació)
 
-- PER FER ELS CÀLCULS TENIR EN COMPTE DIFERENTS CRITERIS, COM PER EXMEPLE, L'EDAT DELS USUARIS, EL TIPUS D'ATRACCIÓ
+\subsection{El càlcul de distàncies}
+Es podria mirar de realitzar el càlcul de distàncies amb la programació en paral·lel. El càlcul de distàncies consisteix en realitzar un Dijkstra per eliminar els obstacles i un A* per fel el càlcul de les distàncies entre un punt i un pivot. Tan en el Dijkstra com A*, com que el càlcul de les distàncies entre un punt i un pivot es poden fer independentment, la programació en paral·lel resulta eficaç per millorar l'eficiència del càlcul.
 
-- CLUSTERING DE RUTES
+\subsection{El càlcul dels diagrames de Voronoi}
+La construcció dels diagrames de Voronoi es comú fer-ho amb la estructura de la triangulació Delaunay. La triangulació Delaunay es pot realitzar amb algoritmes en paral·lel, per tant, es podria realitzar la construcció dels dos diagrames de Voronoi mitjançant la programació en paral·lel.
+
+\subsection{El càlcul de la importància d'una regió}
+Pel càlcul de la importància d'una regió es podria tenir en consideració diferents criteris, com per exemple, l'edat dels usuaris, si van en grup, el tipus d'atracció on pugen. Es podria aplicar tècniques per aprofitar l'informació rebuda amb les \textit{Magic Bands}.
 
 \clearpage
 \section{Conclusions}
@@ -434,6 +436,10 @@ Cada cel·la té 3 factors. G, H i F.
 
 \clearpage
 \section{Algorisme latitud longitud \label{ann:lat_lon}}
+
+\include{convert_lat_long_x_y}
+
+
 \end{document}
 
 

@@ -1,18 +1,21 @@
 \babel@toc {catalan}{}
-\contentsline {section}{\numberline {1}Introducci\IeC {\'o}}{4}
-\contentsline {section}{\numberline {2}Objectiu}{5}
-\contentsline {section}{\numberline {3}Definici\IeC {\'o} del problema}{6}
-\contentsline {subsection}{\numberline {3.1}Filtrat de dades}{6}
-\contentsline {subsection}{\numberline {3.2}Assignar un pes a cada atracci\IeC {\'o}}{9}
-\contentsline {subsection}{\numberline {3.3}Dividir el mapa en \IeC {\`a}rees }{10}
-\contentsline {subsubsection}{\numberline {3.3.1}Estrat\IeC {\`e}gies}{10}
-\contentsline {subsubsection}{\numberline {3.3.2}Diagrama de \textit {Voronoi} de primer nivell}{12}
-\contentsline {subsubsection}{\numberline {3.3.3}Capa de \textit {Voronoi} de primer nivell capa 2}{12}
-\contentsline {subsection}{\numberline {3.4}Definir les zones candidates}{13}
-\contentsline {subsection}{\numberline {3.5}Ubicar els restaurants}{13}
-\contentsline {section}{\numberline {4}Pre-processament de dades}{16}
-\contentsline {section}{\numberline {5}Treball futur}{17}
-\contentsline {section}{\numberline {6}Conclusions}{18}
-\contentsline {section}{\numberline {A}Diagrames de Voronoi }{20}
-\contentsline {section}{\numberline {B}Algoritme A*}{21}
-\contentsline {section}{\numberline {C}Algorisme latitud longitud }{23}
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}}{3}
+\contentsline {section}{\numberline {2}Objectiu}{4}
+\contentsline {section}{\numberline {3}Definici\IeC {\'o} del problema}{5}
+\contentsline {subsection}{\numberline {3.1}Filtrat de dades}{5}
+\contentsline {subsection}{\numberline {3.2}Assignar un pes a cada atracci\IeC {\'o}}{8}
+\contentsline {subsection}{\numberline {3.3}Dividir el mapa en \IeC {\`a}rees }{9}
+\contentsline {subsubsection}{\numberline {3.3.1}Estrat\IeC {\`e}gies}{9}
+\contentsline {subsubsection}{\numberline {3.3.2}Diagrama de \textit {Voronoi} de primer nivell}{11}
+\contentsline {subsubsection}{\numberline {3.3.3}Capa de \textit {Voronoi} de primer nivell capa 2}{11}
+\contentsline {subsection}{\numberline {3.4}Definir les zones candidates}{12}
+\contentsline {subsection}{\numberline {3.5}Ubicar els restaurants}{12}
+\contentsline {section}{\numberline {4}Pre-processament de dades}{15}
+\contentsline {section}{\numberline {5}Treball futur}{16}
+\contentsline {subsection}{\numberline {5.1}El c\IeC {\`a}lcul de dist\IeC {\`a}ncies}{16}
+\contentsline {subsection}{\numberline {5.2}El c\IeC {\`a}lcul dels diagrames de Voronoi}{16}
+\contentsline {subsection}{\numberline {5.3}El c\IeC {\`a}lcul de la import\IeC {\`a}ncia d'una regi\IeC {\'o}}{16}
+\contentsline {section}{\numberline {6}Conclusions}{17}
+\contentsline {section}{\numberline {A}Diagrames de Voronoi }{19}
+\contentsline {section}{\numberline {B}Algoritme A*}{20}
+\contentsline {section}{\numberline {C}Algorisme latitud longitud }{22}
