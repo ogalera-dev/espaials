@@ -33,6 +33,21 @@
     commentstyle=\color{black}
 }
 
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstset{
+	backgroundcolor=\color{backcolour},   
+	breaklines=true, 
+	numbers=left,
+	basicstyle=\footnotesize,
+	commentstyle=\color{mygreen},    % comment style
+  escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+  keywordstyle=\color{blue},       % keyword style
+  stringstyle=\color{mymauve},     % string literal style
+}
+
 \renewcommand{\baselinestretch}{1.5}
 
 \begin{document}
@@ -269,20 +284,21 @@ A continuació es podrà veure un exemple de com seria aquest càlcul. Se suposa
 	\label{fig:benefici_restaurant}
 \end{figure}
 
-$$B_{x} = A_{1}*P{1} + A_{2}*P_{2} + A_{3}*P_{3} + A_{4}*P_{4}$$
+$$B_{x} = (A_{1} \cdot P{1} + A_{2} \cdot P_{2} + A_{3} \cdot P_{3} + A_{4} \cdot P_{4}) \cdot C_{i}$$
 
 on:
 
 \begin{itemize}
-	\item $B_{x}$ és el benefici del restaurant $x$
-	\item $A_{1}$ és l'àrea de color verd que cobreix el restaurant
-	\item $P_{1}$ és el pes de l'àrea de color verd 
-	\item $A_{2}$ és l'àrea de color blau cel que cobreix el restaurant
-	\item $P_{2}$ és el pes de l'àrea de color blau cel 
-	\item $A_{3}$ és l'àrea de color blau marí que cobreix el restaurant
-	\item $P_{3}$ és el pes de l'àrea de color blau marí 
-	\item $A_{4}$ és l'àrea de color rosa que cobreix el restaurant
-	\item $P_{4}$ és el pes de l'àrea de color rosa 
+	\item $B_{x}$: El benefici del restaurant $x$.
+	\item $A_{1}$: Àrea de color verd que cobreix el restaurant.
+	\item $P_{1}$: Pes de l'àrea de color verd.
+	\item $A_{2}$: Àrea de color blau cel que cobreix el restaurant.
+	\item $P_{2}$: Pes de l'àrea de color blau cel.
+	\item $A_{3}$: Àrea de color blau marí que cobreix el restaurant.
+	\item $P_{3}$: Pes de l'àrea de color blau marí.
+	\item $A_{4}$: Àrea de color rosa que cobreix el restaurant.
+	\item $P_{4}$: Pes de l'àrea de color rosa.
+	\item $B_{i}$: Quan car és el restaurant $i$.
 \end{itemize}
 
 Una vegada generada totes les combinacions, s'elegirà la que maximitzi el benefici global del parc. En la següent \textit{Figura \ref{fig:mapa_restaurants}} es mostra un exemple d'una possible solució final.
